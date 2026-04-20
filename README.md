@@ -68,10 +68,20 @@
 
 ---
 
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=smitdighe&theme=tokyo-night" />
+
+</div>
+
+---
+
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/smitdighe/smitdighe/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/smitdighe/smitdighe/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
