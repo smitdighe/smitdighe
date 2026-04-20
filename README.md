@@ -94,15 +94,10 @@
   <a href="https://linkedin.com/in/smitdighe">
     <img src="https://skillicons.dev/icons?i=linkedin" height="45" style="margin: 10px;"/>
   </a>
-
+  &nbsp;&nbsp;&nbsp;&nbsp;
 
   <a href="mailto:smitdighe@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" height="45" style="margin: 10px;"/>
-  </a>
-
-
-  <a href="https://instagram.com/smit_dighe">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" height="45"/>
   </a>
 
   
