@@ -18,24 +18,26 @@
 ## 🛠️ Tech Stack
 
 ### 💻 Programming Languages
-<div align="center">
 <img src="https://skillicons.dev/icons?i=c,cpp,python,js" />
 </div>
 
+
 ### 🌐 Web Development
-<div align="center">
 <img src="https://skillicons.dev/icons?i=html,css,flask" />
 </div>
 
+
 ### 📊 Data & Tools
-<div align="center">
-<img src="https://skillicons.dev/icons?i=python" />
-</div>
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat-square&logo=Matplotlib&logoColor=black)
+![Seaborn](https://img.shields.io/badge/seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
+
 
 ### ⚙️ Tools & Technologies
-<div align="center">
 <img src="https://skillicons.dev/icons?i=git,github,vscode" />
 </div>
+
 
 ### 🚀 Current Focus
 - 📌 Learning Java (OOP + problem solving)
