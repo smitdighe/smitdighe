@@ -15,14 +15,6 @@
 
 ---
 
-<h2 align="center">👀 Profile Views</h2>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=smitdighe&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
-</p>
-
----
-
 <h2 align="center">🌐 Connect With Me</h2>
 
 <div align="center">
@@ -37,6 +29,14 @@
   </a>
 
 </div>
+
+---
+
+<h2 align="center">👀 Profile Views</h2>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=smitdighe&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
+</p>
 
 ---
 
