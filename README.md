@@ -50,8 +50,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=smitdighe&show_icons=true&theme=tokyonight"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smitdighe&layout=compact&theme=tokyonight"/>
+  <img src="https://github-readme-stats.shion.dev/api?username=smitdighe&theme=dark&hide_border=false" width="48%" height="200"/>
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=smitdighe&theme=dark&layout=compact" width="48%" height="200"/>
 </p>
 
 ---
