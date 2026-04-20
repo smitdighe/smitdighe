@@ -19,16 +19,14 @@
 
 <div align="center">
 
-
-  <a href="https://linkedin.com/in/smitdighe">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="45" style="margin: 10px;"/>
+  <a href="https://linkedin.com/in/smitdighe" style="text-decoration: none;">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 
-  <a href="mailto:smitdighe@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" height="45" style="margin: 10px;"/>
+  <a href="mailto:smitdighe@gmail.com" style="text-decoration: none;">
+    <img src="https://skillicons.dev/icons?i=gmail" height="45"/>
   </a>
-
 
 </div>
 
