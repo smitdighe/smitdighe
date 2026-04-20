@@ -15,6 +15,25 @@
 
 ---
 
+<h2 align="center">🌐 Connect With Me</h2>
+
+<div align="center">
+
+
+  <a href="https://linkedin.com/in/smitdighe">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="45" style="margin: 10px;"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="mailto:smitdighe@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="45" style="margin: 10px;"/>
+  </a>
+
+
+</div>
+
+---
+
 ## 🛠️ Tech Stack
 
 ### 💻 Programming Languages
@@ -83,25 +102,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/smitdighe/smitdighe/output/github-contribution-grid-snake-dark.svg" />
 </p>
-
----
-
-<h2 align="center">🌐 Connect With Me</h2>
-
-<div align="center">
-
-
-  <a href="https://linkedin.com/in/smitdighe">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="45" style="margin: 10px;"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-
-  <a href="mailto:smitdighe@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" height="45" style="margin: 10px;"/>
-  </a>
-
-  
-</div>
 
 ---
 
