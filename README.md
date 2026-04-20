@@ -26,6 +26,10 @@
 <img src="https://skillicons.dev/icons?i=html,css,flask" />
 </div>
 
+### 🗄️ Database
+<img src="https://skillicons.dev/icons?i=mysql" />
+</div>
+
 
 ### 📊 Data & Tools
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
@@ -78,7 +82,7 @@
   <a href="https://linkedin.com/in/smitdighe">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" height="40"/>
   </a>
-  <a href="mailto:smitdighe@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=smitdighe@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" height="40"/>
   </a>
   <a href="https://instagram.com/smit_dighe">
