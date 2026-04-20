@@ -88,17 +88,21 @@
 
 <h2 align="center">🌐 Connect With Me</h2>
 
-<p align="center">
+<div align="center">
+
   <a href="https://linkedin.com/in/smitdighe">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" height="40"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" height="45" style="margin: 10px;"/>
   </a>
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=smitdighe@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" height="40"/>
+
+  <a href="mailto:smitdighe@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="45" style="margin: 10px;"/>
   </a>
+
   <a href="https://instagram.com/smit_dighe">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat-square&logo=instagram&logoColor=white" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" height="45" style="margin: 10px;"/>
   </a>
-</p>
+  
+</div>
 
 ---
 
