@@ -79,8 +79,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=smitdighe&theme=dark" width="60%"/>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=smitdighe&theme=dark&layout=compact" width="50%"/>
+  <img src="https://github-readme-stats.shion.dev/api?username=smitdighe&theme=dark" width="55%"/>
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=smitdighe&theme=dark&layout=compact" width="45%"/>
 </p>
 
 ---
