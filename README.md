@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Engineering+Student;Aspiring+Full+Stack+Developer;Building+Projects&center=true&width=500&height=45">
 </p>
+
 ---
 
 ## 🚀 About Me
