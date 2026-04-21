@@ -80,7 +80,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.shion.dev/api?username=smitdighe&theme=tokyonight" width="50%"/>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=smitdighe&theme=tokyonight&layout=compact" width="47%"/>
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=smitdighe&theme=tokyonight&layout=compact" width="46.5%"/>
 </p>
 
 ---
