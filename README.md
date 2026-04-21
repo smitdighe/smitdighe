@@ -43,12 +43,12 @@
 ## 🛠️ Tech Stack
 
 ### 💻 Programming Languages
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js" />
+<img src="https://skillicons.dev/icons?i=c,cpp,python,js" />&nbsp;
 </div>
 
 
 ### 🌐 Web Development
-<img src="https://skillicons.dev/icons?i=html,css,flask" />
+<img src="https://skillicons.dev/icons?i=html,css,flask" />&nbsp;
 </div>
 
 ### 🗄️ Database
