@@ -43,12 +43,12 @@
 ## 🛠️ Tech Stack
 
 ### 💻 Programming Languages
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js" />&nbsp;
+<img src="https://skillicons.dev/icons?i=c,cpp,python,js" />
 </div>
 
 
 ### 🌐 Web Development
-<img src="https://skillicons.dev/icons?i=html,css,flask" />&nbsp;
+<img src="https://skillicons.dev/icons?i=html,css,flask" />
 </div>
 
 ### 🗄️ Database
@@ -79,7 +79,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=smitdighe&theme=tokyonight" width="50%"/>
+  <img src="https://github-readme-stats.shion.dev/api?username=smitdighe&theme=tokyonight" width="50%"/>&nbsp;
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=smitdighe&theme=tokyonight&layout=compact" width="46.5%"/>
 </p>
 
