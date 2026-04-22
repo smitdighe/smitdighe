@@ -73,6 +73,7 @@
 - 📌 Improving JavaScript fundamentals
 - 📌 Exploring Node.js (backend basics)
 - 📌 Planning to learn React & Next.js
+- 📌 Building projects to apply everything I learn
 
 ---
 
