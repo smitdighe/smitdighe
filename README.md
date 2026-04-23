@@ -48,11 +48,11 @@
 
 
 ### 🌐 Web Development
-<img src="https://skillicons.dev/icons?i=html,css,flask" />
+<img src="https://skillicons.dev/icons?i=html, css, flask" />
 </div>
 
 ### 🗄️ Database
-<img src="https://skillicons.dev/icons?i=mysql" />
+<img src="https://skillicons.dev/icons?i=mysql, sqlite" />
 </div>
 
 
