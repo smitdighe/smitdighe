@@ -70,7 +70,7 @@
 
 ### 🚀 Current Focus
 - 📌 Improving JavaScript fundamentals
-- 📌 Exploring Node.js (backend basics)
+- 📌 Exploring Node.js + Express (backend basics)
 - 📌 Building projects to apply everything I learn
 
 ---
