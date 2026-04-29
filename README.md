@@ -69,7 +69,6 @@
 
 
 ### 🚀 Current Focus
-- 📌 Learning Java (OOP + problem solving)
 - 📌 Improving JavaScript fundamentals
 - 📌 Exploring Node.js (backend basics)
 - 📌 Building projects to apply everything I learn
