@@ -110,5 +110,3 @@
 </p>
 
 ---
-
-⭐️ From [smitdighe](https://github.com/smitdighe)
