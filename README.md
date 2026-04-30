@@ -11,7 +11,7 @@
 - 💻 Currently learning **DSA & Problem Solving**  
 - 🌱 Exploring **Web Dev (HTML, CSS, JS, Flask)**  
 - 🎯 Goal: Become a strong developer & build real-world projects  
-- ⚡ Fun Fact : Debugging is better than Coding 😭  
+- ⚡ Fun Fact : Debugging > Coding 😭  
 
 ---
 
