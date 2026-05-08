@@ -69,8 +69,8 @@
 
 
 ### 🚀 Current Focus
-- 📌 Learning JavaScript fundamentals
 - 📌 Exploring Node.js + Express (backend basics)
+- 📌 Contributing to open source (pandas 🐼)
 - 📌 Building projects to apply everything I learn
 
 ---
