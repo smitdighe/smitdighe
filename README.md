@@ -9,7 +9,7 @@
 ## 🚀 About Me
 - 🎓 Engineering Student  
 - 💻 Currently learning **DSA & Problem Solving**  
-- 🌱 Exploring **Web Dev (HTML, CS, JSS, Flask)**  
+- 🌱 Exploring **Web Dev (Node.js + Express, Flask)**  
 - 🎯 Goal: Become a strong developer & build real-world projects  
 - ⚡ Fun Fact : Debugging > Coding 😭  
 
