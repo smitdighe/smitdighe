@@ -48,7 +48,7 @@
 
 
 ### 🌐 Web Development
-<img src="https://skillicons.dev/icons?i=html,css,flask,nodejs,express" />
+<img src="https://skillicons.dev/icons?i=html,css,flask,fastapi,nodejs,express" />
 </div>
 
 ### 🗄️ Database
@@ -64,7 +64,12 @@
 
 
 ### ⚙️ Tools & Technologies
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" />
+</div>
+
+### 🤖 AI & APIs
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)&nbsp;
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)&nbsp;
 </div>
 
 
