@@ -19,7 +19,7 @@
 
 <div align="center">
 
-  <a href="[https://linkedin.com/in/smitdighe](https://www.linkedin.com/in/smit-dighe-a02422337/)" style="text-decoration: none;">
+  <a href="https://www.linkedin.com/in/smit-dighe-a02422337/" style="text-decoration: none;">
     <img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
   </a>
   &nbsp;&nbsp;&nbsp;
