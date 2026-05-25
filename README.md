@@ -117,7 +117,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/smitdighe/smitdighe/output/snake-dark.gif" />
+  <img src="https://raw.githubusercontent.com/smitdighe/smitdighe/output/snake-dark.svg" />
 </p>
 
 ---
