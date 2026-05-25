@@ -72,6 +72,12 @@
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
 </div>
 
+### 📡 Real-Time / Networking
+<p>
+  <img src="https://img.shields.io/badge/SSE-Server--Sent_Events-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PyGithub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge" />
+</p>
 
 ### 🚀 Current Focus
 - 📌 Exploring Node.js + Express (backend basics)
