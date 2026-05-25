@@ -68,7 +68,7 @@
 </div>
 
 ### 🤖 AI & APIs
-![GROQ](https://img.shields.io/badge/SSE-Server--Sent_Events-blue?style=for-the-badge)&nbsp;
+![GROQ](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)&nbsp;
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)&nbsp;
 </div>
 
