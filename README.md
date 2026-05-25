@@ -68,7 +68,7 @@
 </div>
 
 ### 🤖 AI & APIs
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)&nbsp;
+![GROQ](https://img.shields.io/badge/SSE-Server--Sent_Events-blue?style=for-the-badge)&nbsp;
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)&nbsp;
 </div>
 
