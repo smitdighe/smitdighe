@@ -1,8 +1,4 @@
-<h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi 👋, I'm Smit&fontSize=80&animation=fadeIn&fontAlignY=35" alt="Header" />
-  <img src="assets/banner_logo.png" width="100%" />
-</h1>
-<h1 align="center"></h1>
+<h1 align="center"> Hi 👋, I'm Smit </h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Engineering+Student;Aspiring+Full+Stack+Developer;Building+Projects&center=true&width=500&height=45">
