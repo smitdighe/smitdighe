@@ -46,13 +46,13 @@
 
 | <div align="center">**Category**</div> | <div align="center">**Technologies**</div> | <div align="center">**Focus Area**</div> |
 | :--- | :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev/icons?i=python,c,cpp,js" /> | Problem Solving & Software Development |
-| **Web Development** | <img src="https://skillicons.dev/icons?i=html,css,flask,fastapi,nodejs,express" /> | Full Stack Web Development |
-| **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,postgresql,supabase" /> | Data Storage & Management |
-| **Data Science** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white) | Data Analysis & Visualization |
-| **Tools and Technologies** | <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" /> | Version Control & Deployment |
-| **API & AI Integration** | ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white) ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white) | AI-Powered Applications |
-| **Real-Time Systems** | ![SSE](https://img.shields.io/badge/SSE-555555?style=flat-square&logoColor=white) ![Server-Sent Events](https://img.shields.io/badge/Server--Sent_Events-0078D4?style=flat-square&logoColor=white) ![PyGitHub](https://img.shields.io/badge/PyGitHub-181717?style=flat-square&logo=github&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=flat-square&logoColor=white) | Async Servers & Live Data Streams |
+| **Languages** | <img src="https://skillicons.dev/icons?i=python,c,cpp,js" /> | **Problem Solving & Software Development** |
+| **Web Development** | <img src="https://skillicons.dev/icons?i=html,css,flask,fastapi,nodejs,express" /> | **Full Stack Web Development** |
+| **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,postgresql,supabase" /> | **Data Storage & Management** |
+| **Data Science** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white) | **Data Analysis & Visualization** |
+| **Tools and Technologies** | <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" /> | **Version Control & Deployment** |
+| **API & AI Integration** | ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white) ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white) | **AI-Powered Applications** |
+| **Real-Time Systems** | ![SSE](https://img.shields.io/badge/SSE-555555?style=flat-square&logoColor=white) ![Server-Sent Events](https://img.shields.io/badge/Server--Sent_Events-0078D4?style=flat-square&logoColor=white) ![PyGitHub](https://img.shields.io/badge/PyGitHub-181717?style=flat-square&logo=github&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=flat-square&logoColor=white) | **Async Servers & Live Data Streams** |
 
 </div>
 
