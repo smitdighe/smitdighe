@@ -44,9 +44,9 @@
 
 <div align="center">
 
-| **Category** | **Technologies** | **Focus Area** |
+| <div align="center">**Category**</div> | <div align="center">**Technologies**</div> | <div align="center">**Focus Area**</div> |
 | :--- | :--- | :--- |
-| **Programming Languages** | <img src="https://skillicons.dev/icons?i=python,c,cpp,js" /> | Problem Solving & Software Development |
+| **Languages** | <img src="https://skillicons.dev/icons?i=python,c,cpp,js" /> | Problem Solving & Software Development |
 | **Web Development** | <img src="https://skillicons.dev/icons?i=html,css,flask,fastapi,nodejs,express" /> | Full Stack Web Development |
 | **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,postgresql,supabase" /> | Data Storage & Management |
 | **Data Science** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white) | Data Analysis & Visualization |
