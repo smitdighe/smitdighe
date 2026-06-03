@@ -42,42 +42,19 @@
 
 ## 🛠️ Tech Stack
 
-### 💻 Programming Languages
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js" />
+<div align="center">
+
+| **Category** | **Technologies** | **Focus Area** |
+| :--- | :--- | :--- |
+| **Programming Languages** | <img src="https://skillicons.dev/icons?i=python,c,cpp,js" /> | Problem Solving & Software Development |
+| **Backend Development** | <img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,express" /> | APIs, Server-Side Applications & Microservices |
+| **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,supabase" /> | Data Storage & Management |
+| **Data Science** | <img src="https://skillicons.dev/icons?i=python" /> + NumPy • Pandas • Matplotlib • Seaborn | Data Analysis & Visualization |
+| **Development Tools** | <img src="https://skillicons.dev/icons?i=git,github,vscode,docker" /> | Version Control & Deployment |
+| **API & AI Integration** | Groq API • REST APIs | AI-Powered Applications |
+| **Real-Time Systems** | SSE • Uvicorn | Streaming & Live Updates |
+
 </div>
-
-
-### 🌐 Web Development
-<img src="https://skillicons.dev/icons?i=html,css,flask,fastapi,nodejs,express" />
-</div>
-
-### 🗄️ Database
-<img src="https://skillicons.dev/icons?i=mysql,sqlite,supabase" />
-</div>
-
-
-### 📊 Data & Tools
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)&nbsp;
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)&nbsp;
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat-square&logo=Matplotlib&logoColor=black)&nbsp;
-![Seaborn](https://img.shields.io/badge/seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)&nbsp;
-
-
-### ⚙️ Tools & Technologies
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" />
-</div>
-
-### 🤖 AI & APIs
-![GROQ](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)&nbsp;
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
-</div>
-
-### 📡 Real-Time / Networking
-<p>
-  <img src="https://img.shields.io/badge/SSE-Server--Sent_Events-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/PyGithub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge" />
-</p>
 
 ### 🚀 Current Focus
 - 📌 Exploring Node.js + Express (backend basics)
