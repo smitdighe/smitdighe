@@ -44,7 +44,7 @@
 
 <div align="center">
 
-| <div align="center">**Category**</div> | <div align="center">**Technologies**</div> | <div align="center">**Focus Area**</div> |
+| **Category** | <div align="center">**Technologies**</div> | **Focus Area** |
 | :--- | :--- | :--- |
 | **Languages** | <img src="https://skillicons.dev/icons?i=python,c,cpp,js" /> | **Problem Solving & Software Development** |
 | **Web Development** | <img src="https://skillicons.dev/icons?i=html,css,flask,fastapi,nodejs,express" /> | **Full Stack Web Development** |
