@@ -47,12 +47,12 @@
 | **Category** | **Technologies** | **Focus Area** |
 | :--- | :--- | :--- |
 | **Programming Languages** | <img src="https://skillicons.dev/icons?i=python,c,cpp,js" /> | Problem Solving & Software Development |
-| **Backend Development** | <img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,express" /> | APIs, Server-Side Applications & Microservices |
-| **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,supabase" /> | Data Storage & Management |
-| **Data Science** | <img src="https://skillicons.dev/icons?i=python" /> + NumPy • Pandas • Matplotlib • Seaborn | Data Analysis & Visualization |
-| **Development Tools** | <img src="https://skillicons.dev/icons?i=git,github,vscode,docker" /> | Version Control & Deployment |
+| **Web Development** | <img src="https://skillicons.dev/icons?i=html,css,flask,fastapi,nodejs,express" /> | Full Stack Web Development |
+| **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,postgresql,supabase" /> | Data Storage & Management |
+| **Data Science** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white) | Data Analysis & Visualization |
+| **Tools and Technologies** | <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" /> | Version Control & Deployment |
 | **API & AI Integration** | Groq API • REST APIs | AI-Powered Applications |
-| **Real-Time Systems** | SSE • Uvicorn | Streaming & Live Updates |
+| **Real-Time Systems** | SSE • Uvicorn | Async Servers & Live Data Streams |
 
 </div>
 
