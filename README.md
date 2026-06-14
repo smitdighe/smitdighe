@@ -108,7 +108,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/smitdighe/smitdighe/output/snake-dark.svg" />
+  ![Pac-Man eating contributions](https://github.com/smitdighe/smitdighe/raw/main/assets/pacman-contribution-graph-dark.svg)
 </p>
 
 ---
