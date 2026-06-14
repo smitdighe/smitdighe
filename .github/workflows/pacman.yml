@@ -20,7 +20,7 @@ jobs:
         run: |
           pip install requests --quiet
           python3 << 'EOF'
-          import requests, json, datetime, math, os
+          import requests, os
 
           username = os.environ.get("GITHUB_REPOSITORY_OWNER", "smitdighe")
           token = os.environ["GITHUB_TOKEN"]
@@ -47,18 +47,15 @@ jobs:
               headers=headers)
           weeks = r.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
 
-          days = []
-          for week in weeks:
-              for day in week["contributionDays"]:
-                  days.append(day)
-
-          # SVG dimensions
-          cell = 12
+          cell = 11
           gap = 3
+          step = cell + gap
+          pad_left = 20
+          pad_top = 20
           cols = len(weeks)
           rows = 7
-          W = cols * (cell + gap) + 60
-          H = rows * (cell + gap) + 60
+          W = pad_left + cols * step + 20
+          H = pad_top + rows * step + 20
 
           def color(count):
               if count == 0: return "#161b22"
@@ -67,35 +64,46 @@ jobs:
               if count < 9: return "#26a641"
               return "#39d353"
 
+          # Build all cells with IDs for eaten animation
           cells_svg = ""
           for wi, week in enumerate(weeks):
               for di, day in enumerate(week["contributionDays"]):
-                  x = 30 + wi * (cell + gap)
-                  y = 30 + di * (cell + gap)
+                  x = pad_left + wi * step
+                  y = pad_top + di * step
                   c = color(day["contributionCount"])
-                  cells_svg += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{c}"/>\n'
+                  cid = f"c{wi}_{di}"
+                  # Each cell fades out when pacman reaches it (on row 3)
+                  if di == 3 and day["contributionCount"] > 0:
+                      delay = wi * 0.12
+                      total = cols * 0.12 + 1
+                      cells_svg += f'''<rect id="{cid}" x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{c}">
+                        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;{delay/total:.3f};{(delay+0.05)/total:.3f};1" dur="{total:.1f}s" repeatCount="indefinite"/>
+                      </rect>\n'''
+                  else:
+                      cells_svg += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{c}"/>\n'
 
-          # Pac-Man animation along row 3 (middle)
-          pac_y = 30 + 3 * (cell + gap) + cell // 2
-          pac_start_x = 30 - 20
-          pac_end_x = 30 + cols * (cell + gap)
+          # Pac-Man travels across row 3
+          pac_row = 3
+          pac_y = pad_top + pac_row * step + cell // 2
+          pac_start = pad_left - 15
+          pac_end = pad_left + cols * step + 5
+          duration = cols * 0.12 + 1
 
-          svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" style="background:#0d1117">
-          <style>
-            @keyframes move {{ from {{ transform: translateX(0) }} to {{ transform: translateX({pac_end_x - pac_start_x}px) }} }}
-            @keyframes chomp {{ 0%,100% {{ d: path('M0,0 L12,4 A12,12 0 1,1 12,-4 Z') }} 50% {{ d: path('M0,0 L12,0 A12,12 0 1,1 12,0 Z') }} }}
-            .pacman {{ animation: move {cols * 0.15:.1f}s linear infinite; }}
-          </style>
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" style="background:#0d1117">
           {cells_svg}
-          <g class="pacman" transform="translate({pac_start_x},{pac_y})">
-            <path fill="#FFD700" d="M0,0 L12,4 A12,12 0 1,1 12,-4 Z">
-              <animate attributeName="d"
-                values="M0,0 L12,5 A12,12 0 1,1 12,-5 Z;M0,0 L12,0.5 A12,12 0 1,1 12,-0.5 Z;M0,0 L12,5 A12,12 0 1,1 12,-5 Z"
-                dur="0.3s" repeatCount="indefinite"/>
-            </path>
-            <circle cx="3" cy="-5" r="2" fill="#0d1117"/>
+          <g>
+            <circle cx="0" cy="{pac_y}" r="7" fill="#FFD700">
+              <animateTransform attributeName="transform" type="translate"
+                values="{pac_start},0;{pac_end},0"
+                dur="{duration:.1f}s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="0" cy="{pac_y - 3}" r="1.5" fill="#0d1117">
+              <animateTransform attributeName="transform" type="translate"
+                values="{pac_start},0;{pac_end},0"
+                dur="{duration:.1f}s" repeatCount="indefinite"/>
+            </circle>
           </g>
-          </svg>"""
+          </svg>'''
 
           os.makedirs("assets", exist_ok=True)
           with open("assets/pacman-contribution-graph-dark.svg", "w") as f:
