@@ -105,7 +105,8 @@
 
 ---
 
-## 🐍 Contribution Snake
+## <img width="498" height="361" alt="PacmanGamingGIF" src="https://github.com/user-attachments/assets/d28dbedd-6c42-4d3d-85c9-2d9c6e0e77f0" />
+ Contribution Showcase
 
 <p align="center">
   ![Pac-Man eating contributions](https://github.com/smitdighe/smitdighe/raw/main/assets/pacman-contribution-graph-dark.svg)
