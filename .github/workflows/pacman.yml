@@ -14,9 +14,96 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Pac-Man
-        uses: ghaction-x/pacman-contribution-graph@v1
+      - name: Fetch contributions and generate Pac-Man SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install requests --quiet
+          python3 << 'EOF'
+          import requests, json, datetime, math, os
+
+          username = os.environ.get("GITHUB_REPOSITORY_OWNER", "smitdighe")
+          token = os.environ["GITHUB_TOKEN"]
+
+          headers = {"Authorization": f"bearer {token}"}
+          query = """
+          query($login: String!) {
+            user(login: $login) {
+              contributionsCollection {
+                contributionCalendar {
+                  weeks {
+                    contributionDays {
+                      contributionCount
+                      date
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+          r = requests.post("https://api.github.com/graphql",
+              json={"query": query, "variables": {"login": username}},
+              headers=headers)
+          weeks = r.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+
+          days = []
+          for week in weeks:
+              for day in week["contributionDays"]:
+                  days.append(day)
+
+          # SVG dimensions
+          cell = 12
+          gap = 3
+          cols = len(weeks)
+          rows = 7
+          W = cols * (cell + gap) + 60
+          H = rows * (cell + gap) + 60
+
+          def color(count):
+              if count == 0: return "#161b22"
+              if count < 3: return "#0e4429"
+              if count < 6: return "#006d32"
+              if count < 9: return "#26a641"
+              return "#39d353"
+
+          cells_svg = ""
+          for wi, week in enumerate(weeks):
+              for di, day in enumerate(week["contributionDays"]):
+                  x = 30 + wi * (cell + gap)
+                  y = 30 + di * (cell + gap)
+                  c = color(day["contributionCount"])
+                  cells_svg += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{c}"/>\n'
+
+          # Pac-Man animation along row 3 (middle)
+          pac_y = 30 + 3 * (cell + gap) + cell // 2
+          pac_start_x = 30 - 20
+          pac_end_x = 30 + cols * (cell + gap)
+
+          svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" style="background:#0d1117">
+          <style>
+            @keyframes move {{ from {{ transform: translateX(0) }} to {{ transform: translateX({pac_end_x - pac_start_x}px) }} }}
+            @keyframes chomp {{ 0%,100% {{ d: path('M0,0 L12,4 A12,12 0 1,1 12,-4 Z') }} 50% {{ d: path('M0,0 L12,0 A12,12 0 1,1 12,0 Z') }} }}
+            .pacman {{ animation: move {cols * 0.15:.1f}s linear infinite; }}
+          </style>
+          {cells_svg}
+          <g class="pacman" transform="translate({pac_start_x},{pac_y})">
+            <path fill="#FFD700" d="M0,0 L12,4 A12,12 0 1,1 12,-4 Z">
+              <animate attributeName="d"
+                values="M0,0 L12,5 A12,12 0 1,1 12,-5 Z;M0,0 L12,0.5 A12,12 0 1,1 12,-0.5 Z;M0,0 L12,5 A12,12 0 1,1 12,-5 Z"
+                dur="0.3s" repeatCount="indefinite"/>
+            </path>
+            <circle cx="3" cy="-5" r="2" fill="#0d1117"/>
+          </g>
+          </svg>"""
+
+          os.makedirs("assets", exist_ok=True)
+          with open("assets/pacman-contribution-graph-dark.svg", "w") as f:
+              f.write(svg)
+          print("Done!")
+          EOF
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_user_name: ${{ github.repository_owner }}
-          commit_and_push: true
-          output_dir: assets
+          commit_message: "chore: update Pac-Man contribution graph"
+          branch: main
