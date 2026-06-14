@@ -13,8 +13,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
       - name: Generate Pac-Man
-        uses: abozanona/pacman-contribution-graph@main
+        uses: ghaction-x/pacman-contribution-graph@v1
         with:
           github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_and_push: true
+          output_dir: assets
