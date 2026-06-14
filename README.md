@@ -108,11 +108,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/smitdighe/smitdighe/raw/main/assets/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/smitdighe/smitdighe/raw/main/assets/snake.svg" />
-    <img src="https://github.com/smitdighe/smitdighe/raw/main/assets/snake-dark.svg" />
-  </picture>
+  <img src="https://github.com/smitdighe/smitdighe/raw/main/assets/snake-dark.svg" />
 </p>
 
 ---
