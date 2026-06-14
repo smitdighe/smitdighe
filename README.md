@@ -105,10 +105,14 @@
 
 ---
 
-## Contribution Showcase
+## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/smitdighe/smitdighe/raw/main/assets/pacman-contribution-graph-dark.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/smitdighe/smitdighe/raw/main/assets/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/smitdighe/smitdighe/raw/main/assets/snake.svg" />
+    <img src="https://github.com/smitdighe/smitdighe/raw/main/assets/snake-dark.svg" />
+  </picture>
 </p>
 
 ---
