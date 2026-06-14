@@ -19,7 +19,6 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/snake-dark.svg?palette=github-dark
-            assets/snake.svg?palette=github
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
