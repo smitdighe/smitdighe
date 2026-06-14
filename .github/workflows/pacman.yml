@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
       - name: Generate Pac-Man
         uses: abozanona/pacman-contribution-graph@main
         with:
