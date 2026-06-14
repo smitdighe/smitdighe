@@ -108,7 +108,7 @@
 ## Contribution Showcase
 
 <p align="center">
-  ![Pac-Man eating contributions](https://github.com/smitdighe/smitdighe/raw/main/assets/pacman-contribution-graph-dark.svg)
+  <img src="https://github.com/smitdighe/smitdighe/raw/main/assets/pacman-contribution-graph-dark.svg" />
 </p>
 
 ---
