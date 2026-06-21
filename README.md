@@ -1,34 +1,38 @@
-<h1 align="center"> Hi 👋, I'm Smit </h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Smit%20Dighe&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Dev%20%7C%20AI%2FML%20Builder&descAlignY=55&descSize=18" />
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Engineering+Student;Aspiring+Full+Stack+Developer;Building+Projects&center=true&width=500&height=45">
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6E40C9&center=true&vCenter=true&width=550&lines=Building+AI-powered+apps+%F0%9F%A4%96;Full-Stack+Dev+%7C+ML+Engineer+%F0%9F%9A%80;LangChain+%7C+FastAPI+%7C+React+%7C+Scikit-learn;Open+to+opportunities+%F0%9F%91%80" />
+  </a>
 </p>
 
 ---
 
 ## 🚀 About Me
-- 🎓 Engineering Student  
-- 💻 Currently learning **DSA & Problem Solving**  
+- 🎓 Engineering Student
+- 🔨 Building **AI/ML-powered full-stack apps** — from trained models to deployed products
+- 🧠 Deep diving into **LangChain, LangGraph, and multi-agent systems**
 - 🌱 Exploring **Web Dev (Flask, Node.js + Express)**  
 - 🎯 Goal: Become a strong developer & build real-world projects  
 - ⚡ Fun Fact : Debugging > Coding 😭  
 
 ---
 
-<h2 align="center">🌐 Connect With Me</h2>
+## 🌐 Connect with Me
 
-<div align="center">
-
-  <a href="https://www.linkedin.com/in/smit-dighe-a02422337/" style="text-decoration: none;">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
+<p>
+  <a href="https://www.linkedin.com/in/smit-dighe-a02422337/">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-  &nbsp;&nbsp;&nbsp;
-
-  <a href="mailto:smitdighe@gmail.com" style="text-decoration: none;">
-    <img src="https://skillicons.dev/icons?i=gmail" height="45"/>
+  <a href="mailto:smitdighe@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
-
-</div>
+  <a href="https://smit-dighe-portfolio.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" height="48"/>
+  </a>
+</p>
 
 ---
 
@@ -87,7 +91,7 @@
 
 ---
 
-## 🔥 Streak Stats
+## 🔥 Streak
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=smitdighe&theme=tokyonight"/>
