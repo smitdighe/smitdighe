@@ -8,7 +8,9 @@
   </a>
 </p>
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 ## 🚀 About Me
 - 🎓 Engineering Student
@@ -18,7 +20,9 @@
 - 🎯 Goal: Become a strong developer & build real-world projects  
 - ⚡ Fun Fact : Debugging > Coding 😭  
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 ## 🌐 Connect With Me
 
@@ -31,7 +35,9 @@
   </a>
 </p>
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 <h2 align="center">👀 Profile Views</h2>
 
@@ -39,7 +45,9 @@
   <img src="https://komarev.com/ghpvc/?username=smitdighe&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
 </p>
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 ## 🛠️ Tech Stack
 
@@ -62,7 +70,9 @@
 - 📌 Exploring Node.js + Express (backend basics)
 - 📌 Building projects to apply everything I learn
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 ## 🗂️ Projects
 
@@ -76,7 +86,9 @@
 
 🚀...and more in my repositories.
 
---- 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 ## 📊 GitHub Stats
 
@@ -86,7 +98,9 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=smitdighe&theme=tokyonight" width="32%"/>
 </p>
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 ## 🔥 Streak
 
@@ -94,7 +108,9 @@
   <img src="https://streak-stats.demolab.com?user=smitdighe&theme=tokyonight"/>
 </p>
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 ## 📈 Contribution Graph
 
@@ -104,7 +120,9 @@
 
 </div>
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11e8-9f16-2d2b5ba36f45.gif" width="100%">
+</div>
 
 ## 🐍 Contribution Snake
 
