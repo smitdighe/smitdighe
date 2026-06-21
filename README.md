@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6E40C9&center=true&vCenter=true&width=550&lines=Building+AI-powered+apps+%F0%9F%A4%96;Full-Stack+Dev+%7C+ML+Engineer+%F0%9F%9A%80;Open+to+opportunities+%F0%9F%91%80" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FF7B54&center=true&vCenter=true&width=550&lines=Building+AI-powered+apps+%F0%9F%A4%96;Full-Stack+Dev+%7C+ML+Engineer+%F0%9F%9A%80;Open+to+opportunities+%F0%9F%91%80" />
   </a>
 </p>
 
