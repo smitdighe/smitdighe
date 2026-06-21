@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6E40C9&center=true&vCenter=true&width=550&lines=Building+AI-powered+apps+%F0%9F%A4%96;Full-Stack+Dev+%7C+ML+Engineer+%F0%9F%9A%80;LangChain+%7C+FastAPI+%7C+React+%7C+Scikit-learn;Open+to+opportunities+%F0%9F%91%80" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6E40C9&center=true&vCenter=true&width=550&lines=Building+AI-powered+apps+%F0%9F%A4%96;Full-Stack+Dev+%7C+ML+Engineer+%F0%9F%9A%80;Open+to+opportunities+%F0%9F%91%80" />
   </a>
 </p>
 
@@ -20,17 +20,14 @@
 
 ---
 
-## 🌐 Connect with Me
+## 🌐 Connect With Me
 
-<p>
+<p align="center">
   <a href="https://www.linkedin.com/in/smit-dighe-a02422337/">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
   <a href="mailto:smitdighe@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
-  </a>
-  <a href="https://smit-dighe-portfolio.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" height="48"/>
   </a>
 </p>
 
