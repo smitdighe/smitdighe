@@ -10,8 +10,6 @@
 
 ---
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=smitdighe&theme=tokyonight&hide_border=true" width="45%"/>
-
 ## 🚀 About Me
 - 🎓 Engineering Student
 - 🔨 Building **AI/ML-powered full-stack apps** — from trained models to deployed products
