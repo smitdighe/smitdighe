@@ -14,7 +14,7 @@
 - 🎓 Engineering Student passionate about building production-ready apps
 - 🔨 Building **AI/ML-powered full-stack apps** — from trained models to deployed products
 - 🧠 Deep diving into **LangChain, LangGraph, and multi-agent systems**
-- 🎯 Goal: Become a strong developer & build real-world projects  
+- 🏆 Built and deployed **Revvy** in under 48hrs at a hackathon
 - ⚡ Fun Fact : Debugging > Coding 😭  
 
 ---
