@@ -11,10 +11,9 @@
 ---
 
 ## 🚀 About Me
-- 🎓 Engineering Student
+- 🎓 Engineering Student passionate about building production-ready apps
 - 🔨 Building **AI/ML-powered full-stack apps** — from trained models to deployed products
 - 🧠 Deep diving into **LangChain, LangGraph, and multi-agent systems**
-- 🌱 Exploring **Web Dev (Flask, Node.js + Express)**  
 - 🎯 Goal: Become a strong developer & build real-world projects  
 - ⚡ Fun Fact : Debugging > Coding 😭  
 
@@ -22,14 +21,15 @@
 
 ## 🌐 Connect With Me
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/smit-dighe-a02422337/">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-  <a href="mailto:smitdighe@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" />
-  </a>
-</p>
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/smit-dighe-a02422337/)
+&nbsp;&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:smitdighe@gmail.com)
+&nbsp;&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smit-dighe-portfolio.vercel.app)
+
+</div>
 
 ---
 
@@ -59,8 +59,8 @@
 </div>
 
 ### 🚀 Current Focus
-- 📌 Exploring Node.js + Express (backend basics)
-- 📌 Building projects to apply everything I learn
+- 📌 Exploring **LangChain, LangGraph & multi-agent systems**
+- 📌 Building more AI-powered full-stack products
 
 ---
 
