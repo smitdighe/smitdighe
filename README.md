@@ -47,7 +47,7 @@
 
 | **Category** | <div align="center">**Technologies**</div> | **Focus Area** |
 | :--- | :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts" /> | **Problem Solving & Software Development** |
+| **Languages** | <img src="https://skillicons.dev/icons?i=python,c,js,ts" /> | **Problem Solving & Software Development** |
 | **Frontend** | <img src="https://skillicons.dev/icons?i=html,css,bootstrap,vue" /> | **Responsive UI & Modern Web Design** |
 | **Backend** | <img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,express" /> | **APIs, Web Applications & Services** |
 | **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,postgresql,supabase" /> | **Data Storage & Management** |
