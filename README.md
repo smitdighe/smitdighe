@@ -3,41 +3,32 @@
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FF7B54&center=true&vCenter=true&width=550&lines=Building+AI-powered+apps;Full-Stack+Dev+%7C+ML+Engineer;Open+to+opportunities" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FF7B54&center=true&vCenter=true&width=600&lines=Building+AI-powered+full-stack+apps;Trained+ML+models+%E2%86%92+deployed+products;LangChain+%7C+RAG+%7C+Multi-Agent+Systems;Open+to+opportunities" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/smit-dighe-a02422337/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  &nbsp;
+  <a href="mailto:smitdighe@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://smit-dighe-portfolio.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=smitdighe&label=PROFILE+VIEWS&color=FF7B54&style=for-the-badge" />
 </p>
 
 ---
 
 ## 🚀 About Me
-- 🎓 Engineering Student passionate about building production-ready apps
-- 🔨 Building **AI/ML-powered full-stack apps** — from trained models to deployed products
-- 🧠 Deep diving into **LangChain, LangGraph, and multi-agent systems**
-- 🏆 Built and deployed **Revvy** in under 48hrs at a hackathon
-- ⚡ Fun Fact : Debugging > Coding 😭  
 
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/smit-dighe-a02422337/)
-&nbsp;&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:smitdighe@gmail.com)
-&nbsp;&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://smit-dighe-portfolio.vercel.app)
-
-</div>
-
----
-
-<h2 align="center">👀 Profile Views</h2>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=smitdighe&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
-</p>
+- 🎓 Engineering student who builds and ships — not just learns
+- 🔨 I work across the full stack: trained ML models, REST APIs, and production UIs
+- 🧠 Currently deep diving into LangChain, LangGraph & multi-agent systems
+- 🏆 Shipped Revvy in under 48hrs at a hackathon — AI code review assistant
 
 ---
 
@@ -48,19 +39,14 @@
 | **Category** | <div align="center">**Technologies**</div> | **Focus Area** |
 | :--- | :--- | :--- |
 | **Languages** | <img src="https://skillicons.dev/icons?i=python,c,js,ts" /> | **Problem Solving & Software Development** |
-| **Frontend** | <img src="https://skillicons.dev/icons?i=html,css,bootstrap,vue" /> | **Responsive UI & Modern Web Design** |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=html,css,react,tailwind,bootstrap" /> | **Responsive UI & Modern Web Design** |
 | **Backend** | <img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,express" /> | **APIs, Web Applications & Services** |
 | **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,postgresql,supabase" /> | **Data Storage & Management** |
-| **Data Science** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white) | **Data Analysis & Visualization** |
-| **Tools and Technologies** | <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" /> | **Version Control & Deployment** |
-| **API & AI Integration** | ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white) ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white) | **AI-Powered Applications** |
+| **AI / ML** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | **ML Models & AI-Powered Applications** |
+| **Tools** | <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" /> | **Version Control & Deployment** |
 | **Real-Time Systems** | ![SSE](https://img.shields.io/badge/SSE-555555?style=flat-square&logoColor=white) ![Server-Sent Events](https://img.shields.io/badge/Server--Sent_Events-0078D4?style=flat-square&logoColor=white) ![PyGitHub](https://img.shields.io/badge/PyGitHub-181717?style=flat-square&logo=github&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=flat-square&logoColor=white) | **Async Servers & Live Data Streams** |
 
 </div>
-
-### 🚀 Current Focus
-- 📌 Exploring **LangChain, LangGraph & multi-agent systems**
-- 📌 Building more AI-powered full-stack products
 
 ---
 
@@ -68,11 +54,12 @@
 
 | Project | Description | Status |
 |:--------|:------------|:------:|
-| [⚙️ Revvy](https://revvy-iota.vercel.app/) | AI-powered code review assistant — bugs, security, performance | `🟢 LIVE` |
-| [📈 Gitlytics](https://gitlytics-red.vercel.app/) | Full-stack GitHub profile analytics and visualization dashboard | `🟢 LIVE` |
-| [🛡️ SpamShield](https://spamshield-36t0.onrender.com/) | Real-time SMS spam detector built with TF-IDF & Logistic Regression | `🟢 LIVE` |
-| [🗑️ BinRoute](https://bin-route.vercel.app/) | Smart waste management dashboard for municipal fleet managers | `🟢 LIVE` |
-| [📝 Notes App](https://notes-app-d9cm.onrender.com) | Simple note-taking app built with Python and Flask | `🟢 LIVE` |
+| [✉️ Letter Forge](https://letter-forge.vercel.app/) | AI cover letter generator with SSE streaming | `🟢 LIVE` |
+| [⚙️ Revvy](https://revvy-iota.vercel.app/) | AI code review assistant — bugs, security, performance | `🟢 LIVE` |
+| [📈 Gitlytics](https://gitlytics-red.vercel.app/) | GitHub profile analytics and visualization dashboard | `🟢 LIVE` |
+| [🛡️ SpamShield](https://spamshield-36t0.onrender.com/) | SMS spam detector — TF-IDF + Logistic Regression | `🟢 LIVE` |
+| [🗑️ BinRoute](https://bin-route.vercel.app/) | Smart waste management dashboard for fleet managers | `🟢 LIVE` |
+
 
 🚀...and more in my repositories.
 
@@ -112,8 +99,6 @@
   <img src="https://github.com/smitdighe/smitdighe/raw/main/assets/snake-dark.svg" />
 </p>
 
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&color=FF7B54&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF7B54&height=100&section=footer" />
 </p>
-
