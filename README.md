@@ -61,7 +61,7 @@
 | [🗑️ BinRoute](https://bin-route.vercel.app/) | Smart waste management dashboard for fleet managers | `🟢 LIVE` |
 
 
-🚀...and more in my repositories.
+🚀...and more in my [repositories.](https://github.com/smitdighe?tab=repositories)
 
 ---
 
