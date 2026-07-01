@@ -54,6 +54,7 @@
 
 | Project | Description | Status |
 |:--------|:------------|:------:|
+| [🛡️ Verity](https://verity-iota-two.vercel.app/) | ML job posting fraud detector — LogisticRegression + SHAP explainability | `🟢 LIVE` |
 | [✉️ Letter Forge](https://letter-forge.vercel.app/) | AI cover letter generator with SSE streaming | `🟢 LIVE` |
 | [⚙️ Revvy](https://revvy-iota.vercel.app/) | AI code review assistant — bugs, security, performance | `🟢 LIVE` |
 | [📈 Gitlytics](https://gitlytics-red.vercel.app/) | GitHub profile analytics and visualization dashboard | `🟢 LIVE` |
