@@ -54,12 +54,12 @@
 
 | Project | Description | Status |
 |:--------|:------------|:------:|
+| [📄 FinDocAgent](https://fin-doc-agent.vercel.app/) | A multi-agent RAG system over SEC filings | `🟢 LIVE` |
+| [🔭 Fathom](https://fathom-dev.vercel.app/) | Autonomous research agent — searches, reflects, and writes fully cited reports | `🟢 LIVE` |
 | [🛡️ Verity](https://verity-iota-two.vercel.app/) | ML job posting fraud detector — LogisticRegression + SHAP explainability | `🟢 LIVE` |
-| [✉️ Letter Forge](https://letter-forge.vercel.app/) | AI cover letter generator with SSE streaming | `🟢 LIVE` |
-| [⚙️ Revvy](https://revvy-iota.vercel.app/) | AI code review assistant — bugs, security, performance | `🟢 LIVE` |
-| [📈 Gitlytics](https://gitlytics-red.vercel.app/) | GitHub profile analytics and visualization dashboard | `🟢 LIVE` |
-| [🛡️ SpamShield](https://spamshield-36t0.onrender.com/) | SMS spam detector — TF-IDF + Logistic Regression | `🟢 LIVE` |
-| [🗑️ BinRoute](https://bin-route.vercel.app/) | Smart waste management dashboard for fleet managers | `🟢 LIVE` |
+| [⚙️ Revvy](https://revvy-iota.vercel.app/) | AI pair reviewer — flags bugs, security holes, and performance traps with fixes | `🟢 LIVE` |
+| [📈 Gitlytics](https://gitlytics-red.vercel.app/) | Turns any GitHub profile into a visual story — live GitHub API charts | `🟢 LIVE` |
+| [🗑️ BinRoute](https://bin-route.vercel.app/) | Live waste-collection command center for fleet managers | `🟢 LIVE` |
 
 
 🚀...and more in my [repositories.](https://github.com/smitdighe?tab=repositories)
