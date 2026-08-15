@@ -47,7 +47,7 @@ Built a full AI-powered helpdesk automation system in n8n — reads incoming tic
 </td>
 <td width="40%" align="center">
 
-<img src="./assets/n8n-hackathon-Certificate.jpg" width="100%" alt="Judge's Special Award Certificate" />
+<img src="./assets/Certificate.jpg" width="100%" alt="Judge's Special Award Certificate" />
 
 </td>
 </tr>
