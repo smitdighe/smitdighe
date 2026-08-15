@@ -28,7 +28,30 @@
 - 🎓 Engineering student who builds and ships — not just learns
 - 🔨 I work across the full stack: trained ML models, REST APIs, and production UIs
 - 🧠 Currently deep diving into LangChain, LangGraph & multi-agent systems
+- 🏆 Judge's Special Award — n8n Community Hackathon @ CMPICA, CHARUSAT
 - 🏆 Shipped Revvy in under 48hrs at a hackathon — AI code review assistant
+
+---
+
+## 🥇 Achievements
+
+<table>
+<tr>
+<td width="60%">
+
+**Judge's Special Award — n8n Community Hackathon**
+*Faculty of Computer Science & Applications (FCA), CMPICA, CHARUSAT*
+
+Built a full AI-powered helpdesk automation system in n8n — reads incoming tickets, classifies them with an LLM, routes them to the right department, tracks SLA breaches in real time, auto-escalates urgent ones, and generates AI-written trend reports for admins. Defended every design decision under judge cross-questioning, including the choice to flag records instead of deleting them and the safeguards against prompt injection in the AI calls.
+
+</td>
+<td width="40%" align="center">
+
+<img src="./assets/n8n-hackathon-Certificate.jpg" width="100%" alt="Judge's Special Award Certificate" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -43,6 +66,7 @@
 | **Backend** | <img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,express" /> | **APIs, Web Applications & Services** |
 | **Databases** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,postgresql,supabase" /> | **Data Storage & Management** |
 | **AI / ML** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | **ML Models & AI-Powered Applications** |
+| **Automation** | ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) | **Workflow Automation & Agentic Pipelines** |
 | **Tools** | <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" /> | **Version Control & Deployment** |
 | **Real-Time Systems** | ![SSE](https://img.shields.io/badge/SSE-555555?style=flat-square&logoColor=white) ![Server-Sent Events](https://img.shields.io/badge/Server--Sent_Events-0078D4?style=flat-square&logoColor=white) ![PyGitHub](https://img.shields.io/badge/PyGitHub-181717?style=flat-square&logo=github&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=flat-square&logoColor=white) | **Async Servers & Live Data Streams** |
 
@@ -56,11 +80,10 @@
 |:--------|:------------|:------:|
 | [📄 FinDocAgent](https://fin-doc-agent.vercel.app/) | A multi-agent RAG system over SEC filings | `🟢 LIVE` |
 | [🔭 Fathom](https://fathom-dev.vercel.app/) | Autonomous research agent — searches, reflects, and writes fully cited reports | `🟢 LIVE` |
+| [🌊 Undertow](https://undertow-dev.vercel.app/) | AI-driven incident triage system — classify, deduplicate, resolve | `🟢 LIVE` |
 | [🛡️ Verity](https://verity-iota-two.vercel.app/) | ML job posting fraud detector — LogisticRegression + SHAP explainability | `🟢 LIVE` |
 | [⚙️ Revvy](https://revvy-iota.vercel.app/) | AI pair reviewer — flags bugs, security holes, and performance traps with fixes | `🟢 LIVE` |
-| [📈 Gitlytics](https://gitlytics-red.vercel.app/) | Turns any GitHub profile into a visual story — live GitHub API charts | `🟢 LIVE` |
 | [🗑️ BinRoute](https://bin-route.vercel.app/) | Live waste-collection command center for fleet managers | `🟢 LIVE` |
-
 
 🚀...and more in my [repositories.](https://github.com/smitdighe?tab=repositories)
 
