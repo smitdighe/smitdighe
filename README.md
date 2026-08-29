@@ -32,7 +32,7 @@ Engineering student who ships. I train the model, wrap it in an API, build the U
 ## Stack
 
 <p align="center">
-  <img src="./assets/orbit.svg" width="62%" alt="Tech stack" />
+  <img src="./assets/orbit.svg" width="88%" alt="Tech stack" />
 </p>
 
 <p align="center">
