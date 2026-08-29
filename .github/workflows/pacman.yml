@@ -27,6 +27,8 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           games: pacman
+          player_style: opportunistic
+          hide_month_labels: "false"
 
       - name: Move SVGs into assets
         run: |

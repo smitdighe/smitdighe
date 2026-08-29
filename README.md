@@ -111,3 +111,7 @@ Defended every design decision under judge cross-questioning — including flagg
     <img src="./assets/pacman-contribution-graph.svg" width="100%" alt="Pac-Man contribution graph" />
   </picture>
 </p>
+
+<p align="center"><i>Pac-Man works through 12 months of commits. The empty stretch is exam season, not idle time.</i></p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
