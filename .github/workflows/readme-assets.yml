@@ -1,0 +1,47 @@
+name: readme-assets
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # daily, 05:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/gen_svg.py"
+      - ".github/workflows/readme-assets.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate SVGs
+        env:
+          GH_LOGIN: ${{ github.repository_owner }}
+          # GH_PAT: classic PAT with read:user. Falls back to GITHUB_TOKEN.
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: python scripts/gen_svg.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: refresh readme assets"
+            git push
+          fi

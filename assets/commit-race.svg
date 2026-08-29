@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-label="Contributions per month">
+<style>
+  .fg    { fill: #1f2328; }
+  .muted { fill: #59636e; }
+  .card  { fill: #ffffff; stroke: #d1d9e0; }
+  .grid  { stroke: #d1d9e0; }
+  @media (prefers-color-scheme: dark) {
+    .fg    { fill: #e6edf3; }
+    .muted { fill: #9198a1; }
+    .card  { fill: #161b22; stroke: #30363d; }
+    .grid  { stroke: #30363d; }
+  }
+ .t{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}</style>
+<defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#FF7B54" stop-opacity="0.55"/><stop offset="100%" stop-color="#FFB26B"/></linearGradient></defs>
+<text class="t fg" x="44" y="26" font-size="15" font-weight="700">Contributions &#183; last 12 months</text>
+<line x1="44" y1="46.0" x2="876" y2="46.0" class="grid" stroke-width="1" opacity="0.5"/>
+<text class="t muted" x="36" y="49.0" font-size="10" text-anchor="end">1</text>
+<line x1="44" y1="106.7" x2="876" y2="106.7" class="grid" stroke-width="1" opacity="0.5"/>
+<text class="t muted" x="36" y="109.7" font-size="10" text-anchor="end">1</text>
+<line x1="44" y1="167.3" x2="876" y2="167.3" class="grid" stroke-width="1" opacity="0.5"/>
+<text class="t muted" x="36" y="170.3" font-size="10" text-anchor="end">0</text>
+<line x1="44" y1="228.0" x2="876" y2="228.0" class="grid" stroke-width="1" opacity="0.5"/>
+<text class="t muted" x="36" y="231.0" font-size="10" text-anchor="end">0</text>
+<rect x="59.3" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.15s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.15s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="78.7" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="78.7" y="248" font-size="11" text-anchor="middle">Sep</text>
+<rect x="128.6" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.22s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.22s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="148.0" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="148.0" y="248" font-size="11" text-anchor="middle">Oct</text>
+<rect x="197.9" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.29s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.29s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="217.3" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="217.3" y="248" font-size="11" text-anchor="middle">Nov</text>
+<rect x="267.3" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.36s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.36s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="286.7" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.06s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="286.7" y="248" font-size="11" text-anchor="middle">Dec</text>
+<rect x="336.6" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.43s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.43s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="356.0" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="356.0" y="248" font-size="11" text-anchor="middle">Jan</text>
+<rect x="405.9" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.50s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.50s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="425.3" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="425.3" y="248" font-size="11" text-anchor="middle">Feb</text>
+<rect x="475.3" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.57s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.57s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="494.7" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.27s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="494.7" y="248" font-size="11" text-anchor="middle">Mar</text>
+<rect x="544.6" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.64s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.64s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="564.0" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.34s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="564.0" y="248" font-size="11" text-anchor="middle">Apr</text>
+<rect x="613.9" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.71s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.71s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="633.3" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.41s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="633.3" y="248" font-size="11" text-anchor="middle">May</text>
+<rect x="683.3" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.78s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.78s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="702.7" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.48s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="702.7" y="248" font-size="11" text-anchor="middle">Jun</text>
+<rect x="752.6" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.85s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.85s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="772.0" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.55s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="772.0" y="248" font-size="11" text-anchor="middle">Jul</text>
+<rect x="821.9" y="228.0" width="38.8" height="0" rx="4" fill="url(#bar)"><animate attributeName="height" from="0" to="0.0" begin="0.92s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/><animate attributeName="y" from="228.0" to="228.0" begin="0.92s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1"/></rect>
+<text class="t fg" x="841.3" y="221.0" font-size="11" text-anchor="middle" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1.62s" dur="0.5s" fill="freeze"/></text>
+<text class="t muted" x="841.3" y="248" font-size="11" text-anchor="middle">Aug</text>
+<text class="t muted" x="876" y="268" font-size="10" text-anchor="end">generated 2026-08-29 05:35 UTC</text>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-label="Tech stack orbit">
+<style>
+  .fg    { fill: #1f2328; }
+  .muted { fill: #59636e; }
+  .card  { fill: #ffffff; stroke: #d1d9e0; }
+  .grid  { stroke: #d1d9e0; }
+  @media (prefers-color-scheme: dark) {
+    .fg    { fill: #e6edf3; }
+    .muted { fill: #9198a1; }
+    .card  { fill: #161b22; stroke: #30363d; }
+    .grid  { stroke: #30363d; }
+  }
+ .t{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}</style>
+<circle cx="320.0" cy="320.0" r="110" fill="none" class="grid" stroke-width="1" stroke-dasharray="3 6" opacity="0.7"/>
+<circle cx="320.0" cy="320.0" r="185" fill="none" class="grid" stroke-width="1" stroke-dasharray="3 6" opacity="0.7"/>
+<circle cx="320.0" cy="320.0" r="258" fill="none" class="grid" stroke-width="1" stroke-dasharray="3 6" opacity="0.7"/>
+<circle cx="320.0" cy="320.0" r="46" fill="#FF7B54" opacity="0.14"><animate attributeName="r" values="42;52;42" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="320.0" cy="320.0" r="34" fill="#FF7B54"/>
+<text class="t" x="320.0" y="324.0" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">smit</text>
+<g><animateTransform attributeName="transform" type="rotate" from="0 320.0 320.0" to="360 320.0 320.0" dur="26s" repeatCount="indefinite"/>
+<g transform="translate(320.0,430.0)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="26s" repeatCount="indefinite"/>
+<rect class="card" x="-32.0" y="-13" width="64.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">Python</text>
+</g></g>
+<g transform="translate(224.7,265.0)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="26s" repeatCount="indefinite"/>
+<rect class="card" x="-48.0" y="-13" width="96.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">TypeScript</text>
+</g></g>
+<g transform="translate(415.3,265.0)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="26s" repeatCount="indefinite"/>
+<rect class="card" x="-12.0" y="-13" width="24.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">C</text>
+</g></g>
+</g>
+<g><animateTransform attributeName="transform" type="rotate" from="360 320.0 320.0" to="0 320.0 320.0" dur="36s" repeatCount="indefinite"/>
+<g transform="translate(469.7,428.7)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
+<rect class="card" x="-28.0" y="-13" width="56.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">React</text>
+</g></g>
+<g transform="translate(262.8,495.9)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
+<rect class="card" x="-36.0" y="-13" width="72.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">FastAPI</text>
+</g></g>
+<g transform="translate(135.0,320.0)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
+<rect class="card" x="-36.0" y="-13" width="72.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">Node.js</text>
+</g></g>
+<g transform="translate(262.8,144.1)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
+<rect class="card" x="-28.0" y="-13" width="56.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">Flask</text>
+</g></g>
+<g transform="translate(469.7,211.3)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
+<rect class="card" x="-36.0" y="-13" width="72.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">Express</text>
+</g></g>
+</g>
+<g><animateTransform attributeName="transform" type="rotate" from="0 320.0 320.0" to="360 320.0 320.0" dur="48s" repeatCount="indefinite"/>
+<g transform="translate(569.2,386.8)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="48s" repeatCount="indefinite"/>
+<rect class="card" x="-44.0" y="-13" width="88.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">LangChain</text>
+</g></g>
+<g transform="translate(386.8,569.2)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="48s" repeatCount="indefinite"/>
+<rect class="card" x="-44.0" y="-13" width="88.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">LangGraph</text>
+</g></g>
+<g transform="translate(137.6,502.4)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="48s" repeatCount="indefinite"/>
+<rect class="card" x="-40.0" y="-13" width="80.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">Postgres</text>
+</g></g>
+<g transform="translate(70.8,253.2)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="48s" repeatCount="indefinite"/>
+<rect class="card" x="-32.0" y="-13" width="64.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">Docker</text>
+</g></g>
+<g transform="translate(253.2,70.8)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="48s" repeatCount="indefinite"/>
+<rect class="card" x="-20.0" y="-13" width="40.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">n8n</text>
+</g></g>
+<g transform="translate(502.4,137.6)">
+<g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="48s" repeatCount="indefinite"/>
+<rect class="card" x="-24.0" y="-13" width="48.0" height="26" rx="13" stroke-width="1"/>
+<text class="t fg" x="0" y="5" text-anchor="middle" font-size="12">Groq</text>
+</g></g>
+</g>
+</svg>
