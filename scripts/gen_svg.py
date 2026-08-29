@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""Generate self-hosted animated SVGs for the profile README.
-
-No third-party image hosts. Runs in CI, commits the SVGs, README points at
-files in this repo. Stdlib only.
-"""
-
 import json
 import math
 import os
@@ -36,7 +29,6 @@ THEME_CSS = """
 
 FONT = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
 
-# ---------------------------------------------------------------- data
 
 GRAPHQL = """
 query($login: String!) {
@@ -52,7 +44,6 @@ query($login: String!) {
 
 
 def fetch_calendar():
-    """Return list of (iso_date, count). Empty list on any failure."""
     if not TOKEN:
         print("no GITHUB_TOKEN, skipping contribution fetch")
         return []
@@ -87,7 +78,6 @@ def fetch_calendar():
 
 
 def monthly_totals(days):
-    """Aggregate daily counts into the last 12 calendar months, oldest first."""
     buckets = {}
     for iso, count in days:
         key = iso[:7]
@@ -111,7 +101,18 @@ def monthly_totals(days):
     return out
 
 
-# ---------------------------------------------------------------- header
+SUBTITLES = [
+    "Full-Stack Dev &#183; AI/ML Builder",
+    "LangChain &#183; RAG &#183; Multi-Agent Systems",
+    "Trained ML models &#8594; deployed products",
+    "Open to opportunities",
+]
+
+SUB_START = 2.6
+SUB_SLOT = 3.5
+SUB_FADE = 0.5
+SUB_LOOP = SUB_SLOT * len(SUBTITLES)
+
 
 def write_header():
     w, h = 900, 190
@@ -135,7 +136,6 @@ def write_header():
         '</defs>' % (ACCENT, ACCENT_2, ACCENT_3)
     )
 
-    # drifting particle field
     for i in range(26):
         cx = (i * 137) % w
         cy = 18 + ((i * 61) % (h - 36))
@@ -150,7 +150,6 @@ def write_header():
             % (cx, cy, r, ACCENT, cy, cy - 26, cy, dur, dur)
         )
 
-    # name: stroke draws itself, then fills
     parts.append(
         '<text class="t" x="450" y="92" text-anchor="middle" font-size="62" '
         'font-weight="700" fill="none" stroke="url(#g)" stroke-width="1.6" '
@@ -163,12 +162,19 @@ def write_header():
         '</text>' % ACCENT
     )
 
-    parts.append(
-        '<text class="t muted" x="450" y="128" text-anchor="middle" font-size="17" '
-        'opacity="0">Full-Stack Dev &#183; AI/ML Builder'
-        '<animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.9s" '
-        'fill="freeze"/></text>'
+    keys = "0;%.4f;%.4f;%.4f;1" % (
+        SUB_FADE / SUB_LOOP,
+        (SUB_SLOT - SUB_FADE) / SUB_LOOP,
+        SUB_SLOT / SUB_LOOP,
     )
+    for index, line in enumerate(SUBTITLES):
+        parts.append(
+            '<text class="t muted" x="450" y="128" text-anchor="middle" '
+            'font-size="17" opacity="0">%s'
+            '<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="%s" '
+            'dur="%.1fs" begin="%.2fs" repeatCount="indefinite"/></text>'
+            % (line, keys, SUB_LOOP, SUB_START + index * SUB_SLOT)
+        )
 
     parts.append(
         '<rect x="300" y="146" width="0" height="2.5" rx="1.25" fill="url(#g)">'
@@ -180,9 +186,6 @@ def write_header():
     (OUT / "header.svg").write_text("\n".join(parts), encoding="utf-8")
 
 
-# ---------------------------------------------------------------- orbit
-
-# radius, seconds per revolution, reverse?, phase offset (deg), labels
 RINGS = [
     (110, 26, False, 90, ["Python", "TypeScript", "C"]),
     (185, 36, True, 36, ["React", "FastAPI", "Node.js", "Flask", "Express"]),
@@ -259,8 +262,6 @@ def write_orbit():
     parts.append("</svg>")
     (OUT / "orbit.svg").write_text("\n".join(parts), encoding="utf-8")
 
-
-# ---------------------------------------------------------------- bars
 
 MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -351,8 +352,6 @@ def write_commit_race(totals):
     (OUT / "commit-race.svg").write_text("\n".join(parts), encoding="utf-8")
 
 
-# ---------------------------------------------------------------- divider
-
 def write_divider():
     w, h = 900, 12
     parts = []
@@ -377,8 +376,6 @@ def write_divider():
     parts.append("</svg>")
     (OUT / "divider.svg").write_text("\n".join(parts), encoding="utf-8")
 
-
-# ---------------------------------------------------------------- main
 
 def main():
     OUT.mkdir(exist_ok=True)

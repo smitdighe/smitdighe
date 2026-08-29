@@ -2,7 +2,7 @@ name: readme-assets
 
 on:
   schedule:
-    - cron: "17 5 * * *"   # daily, 05:17 UTC
+    - cron: "17 5 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -30,7 +30,6 @@ jobs:
       - name: Generate SVGs
         env:
           GH_LOGIN: ${{ github.repository_owner }}
-          # GH_PAT: classic PAT with read:user. Falls back to GITHUB_TOKEN.
           GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: python scripts/gen_svg.py
 
