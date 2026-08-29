@@ -104,6 +104,8 @@ Defended every design decision under judge cross-questioning — including flagg
   <img src="./assets/commit-race.svg" width="100%" alt="Contributions per month" />
 </p>
 
+<br />
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg" />
