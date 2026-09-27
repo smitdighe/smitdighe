@@ -42,5 +42,6 @@ jobs:
             echo "no changes"
           else
             git commit -m "chore: refresh readme assets"
+            git pull --rebase --autostash origin main
             git push
           fi

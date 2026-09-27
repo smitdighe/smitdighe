@@ -190,15 +190,15 @@ def write_header():
 ORBIT_W, ORBIT_H = 760, 380
 ORBIT_TILT = 0.42
 ORBIT_SAMPLES = 60
-ORBIT_FAR_OPACITY = 0.45
+ORBIT_FAR_OPACITY = 0.8
 ORBIT_FAR_SCALE = 0.82
 
 ICON_BOX = {1: 26, 2: 34, 3: 44}
 
 CHIP_LIGHT = "F6F8FA"
-CHIP_DARK = "1C2128"
-CONTRAST_LIGHT = 2.6
-CONTRAST_DARK = 3.2
+CHIP_DARK = "2D333B"
+CONTRAST_LIGHT = 3.0
+CONTRAST_DARK = 4.5
 ORBIT_DARK_BOOST = {"flask", "express", "postgresql"}
 DARK_BOOST_L = 0.78
 
@@ -337,8 +337,8 @@ def _orbit_icon_defs():
 
 
 def _orbit_icon_css():
-    rules = ["  .chip { fill: #f6f8fa; stroke: #d0d7de; }"]
-    dark = ["    .chip { fill: #1c2128; stroke: #373e47; }"]
+    rules = ["  .chip { fill: #%s; stroke: #d0d7de; }" % CHIP_LIGHT]
+    dark = ["    .chip { fill: #%s; stroke: #545d68; }" % CHIP_DARK]
     for slug, item in ORBIT_ICONS.items():
         light, night = _orbit_theme_colors(slug, item[0])
         rules.append("  .ic-%s { fill: #%s; }" % (slug, light))
