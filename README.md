@@ -107,11 +107,7 @@ Defended every design decision under judge cross-questioning — including flagg
 <br />
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-contribution-graph.svg" />
-    <img src="./assets/pacman-contribution-graph.svg" width="100%" alt="Pac-Man contribution graph" />
-  </picture>
+  <img src="./assets/pacman-contribution-graph-auto.svg" width="100%" alt="Pac-Man contribution graph" />
 </p>
 
 

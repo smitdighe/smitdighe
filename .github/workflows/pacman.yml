@@ -36,14 +36,18 @@ jobs:
           mv dist/pacman-contribution-graph.svg assets/pacman-contribution-graph.svg
           mv dist/pacman-contribution-graph-dark.svg assets/pacman-contribution-graph-dark.svg
 
+      - name: Merge into one theme-adaptive SVG
+        run: python3 scripts/merge_pacman.py
+
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/pacman-contribution-graph.svg assets/pacman-contribution-graph-dark.svg
+          git add assets/pacman-contribution-graph.svg assets/pacman-contribution-graph-dark.svg assets/pacman-contribution-graph-auto.svg
           if git diff --staged --quiet; then
             echo "no changes"
           else
             git commit -m "chore: update pacman contribution graph"
+            git pull --rebase --autostash origin main
             git push
           fi
