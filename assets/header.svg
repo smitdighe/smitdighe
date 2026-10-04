@@ -1,16 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="900" height="190" role="img" aria-label="Smit Dighe">
 <style>
-  .fg    { fill: #1f2328; }
-  .muted { fill: #59636e; }
-  .card  { fill: #ffffff; stroke: #d1d9e0; }
-  .grid  { stroke: #d1d9e0; }
-  @media (prefers-color-scheme: dark) {
-    .fg    { fill: #e6edf3; }
-    .muted { fill: #9198a1; }
-    .card  { fill: #161b22; stroke: #30363d; }
-    .grid  { stroke: #30363d; }
-  }
+  .fg    { fill: #e6edf3; }
+  .muted { fill: #9198a1; }
+  .card  { fill: #161b22; stroke: #30363d; }
+  .grid  { stroke: #30363d; }
  .t{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}</style>
+<rect width="900" height="190" rx="10" fill="#0d1117"/>
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FF7B54"><animate attributeName="offset" values="-0.4;0.6;-0.4" dur="7s" repeatCount="indefinite"/></stop><stop offset="50%" stop-color="#FFB26B"><animate attributeName="offset" values="0;1;0" dur="7s" repeatCount="indefinite"/></stop><stop offset="100%" stop-color="#7AA2F7"><animate attributeName="offset" values="0.4;1.4;0.4" dur="7s" repeatCount="indefinite"/></stop></linearGradient></defs>
 <circle cx="0" cy="18" r="1.2" fill="#FF7B54" opacity="0.25"><animate attributeName="cy" values="18;-8;18" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.4;0.05" dur="9s" repeatCount="indefinite"/></circle>
 <circle cx="137" cy="79" r="1.9" fill="#FF7B54" opacity="0.25"><animate attributeName="cy" values="79;53;79" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.4;0.05" dur="11s" repeatCount="indefinite"/></circle>

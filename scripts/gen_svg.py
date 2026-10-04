@@ -4,7 +4,7 @@ import math
 import os
 import urllib.error
 import urllib.request
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 LOGIN = os.environ.get("GH_LOGIN", "smitdighe")
@@ -15,18 +15,19 @@ ACCENT = "#FF7B54"
 ACCENT_2 = "#FFB26B"
 ACCENT_3 = "#7AA2F7"
 
+# Dark only, on purpose: every asset renders dark, even for light-mode visitors.
+DARK_BG = "#0d1117"
+
 THEME_CSS = """
-  .fg    { fill: #1f2328; }
-  .muted { fill: #59636e; }
-  .card  { fill: #ffffff; stroke: #d1d9e0; }
-  .grid  { stroke: #d1d9e0; }
-  @media (prefers-color-scheme: dark) {
-    .fg    { fill: #e6edf3; }
-    .muted { fill: #9198a1; }
-    .card  { fill: #161b22; stroke: #30363d; }
-    .grid  { stroke: #30363d; }
-  }
+  .fg    { fill: #e6edf3; }
+  .muted { fill: #9198a1; }
+  .card  { fill: #161b22; stroke: #30363d; }
+  .grid  { stroke: #30363d; }
 """
+
+
+def _dark_bg(w, h):
+    return '<rect width="%d" height="%d" rx="10" fill="%s"/>' % (w, h, DARK_BG)
 
 FONT = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
 
@@ -78,30 +79,6 @@ def fetch_calendar():
     return days
 
 
-def monthly_totals(days):
-    buckets = {}
-    for iso, count in days:
-        key = iso[:7]
-        buckets[key] = buckets.get(key, 0) + count
-
-    today = date.today()
-    keys = []
-    year = today.year
-    month = today.month
-    for _ in range(12):
-        keys.append("%04d-%02d" % (year, month))
-        month -= 1
-        if month == 0:
-            month = 12
-            year -= 1
-    keys.reverse()
-
-    out = []
-    for key in keys:
-        out.append((key, buckets.get(key, 0)))
-    return out
-
-
 SUBTITLES = [
     "Full-Stack Dev &#183; AI/ML Builder",
     "LangChain &#183; RAG &#183; Multi-Agent Systems",
@@ -123,6 +100,7 @@ def write_header():
         'width="%d" height="%d" role="img" aria-label="Smit Dighe">' % (w, h, w, h)
     )
     parts.append("<style>%s .t{font-family:%s}</style>" % (THEME_CSS, FONT))
+    parts.append(_dark_bg(w, h))
 
     parts.append(
         '<defs>'
@@ -337,17 +315,11 @@ def _orbit_icon_defs():
 
 
 def _orbit_icon_css():
-    rules = ["  .chip { fill: #%s; stroke: #d0d7de; }" % CHIP_LIGHT]
-    dark = ["    .chip { fill: #%s; stroke: #545d68; }" % CHIP_DARK]
+    rules = ["  .chip { fill: #%s; stroke: #545d68; }" % CHIP_DARK]
     for slug, item in ORBIT_ICONS.items():
-        light, night = _orbit_theme_colors(slug, item[0])
-        rules.append("  .ic-%s { fill: #%s; }" % (slug, light))
-        if night != light:
-            dark.append("    .ic-%s { fill: #%s; }" % (slug, night))
-    css = "\n".join(rules)
-    if dark:
-        css += "\n  @media (prefers-color-scheme: dark) {\n" + "\n".join(dark) + "\n  }"
-    return css
+        _light, night = _orbit_theme_colors(slug, item[0])
+        rules.append("  .ic-%s { fill: #%s; }" % (slug, night))
+    return "\n".join(rules)
 
 
 def _orbit_body(label, slug, weight):
@@ -451,6 +423,7 @@ def write_orbit():
         "<style>%s\n%s\n  .t{font-family:%s}</style>"
         % (THEME_CSS, _orbit_icon_css(), FONT)
     )
+    parts.append(_dark_bg(ORBIT_W, ORBIT_H))
     parts.append(_orbit_icon_defs())
 
     for radius, _dur, _rev, _phase in ORBIT_RINGS:
@@ -476,89 +449,156 @@ MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
-def write_commit_race(totals):
-    w, h = 900, 280
-    left, right = 44, 24
-    top, bottom = 46, 52
-    plot_w = w - left - right
-    plot_h = h - top - bottom
-    slot = plot_w / 12.0
-    bar_w = slot * 0.56
+ACT_W, ACT_H = 900, 270
 
-    peak = 1
-    for _key, value in totals:
-        if value > peak:
-            peak = value
+# dark only. per level: (top face, left face, right face)
+ACT_LEVELS = [
+    ("#1b2029", "#151920", "#11151b"),
+    ("#4b2a22", "#3b211b", "#331c17"),
+    ("#8d402d", "#713324", "#622c1f"),
+    ("#e0643f", "#b65033", "#9e452c"),
+    ("#ffb26b", "#e0874b", "#c97640"),
+]
+ACT_WEEK = (15.5, 4.4)   # screen step per week (right, down)
+ACT_DAY = (-7.0, 6.0)    # screen step per weekday (left, down)
+ACT_FILL = 0.80          # tile size inside its cell, leaves a gap
+ACT_MAX_H = 38.0         # tallest column, px
 
-    parts = []
+
+def _act_level_css():
+    rules = []
+    for level in range(5):
+        for face, slot in (("t", 0), ("l", 1), ("r", 2)):
+            rules.append(".l%d%s{fill:%s}" % (level, face, ACT_LEVELS[level][slot]))
+    return "".join(rules)
+
+
+def _act_cuts(counts):
+    nonzero = sorted(c for c in counts if c > 0)
+    if not nonzero:
+        return [0, 0, 0]
+    return [nonzero[min(len(nonzero) - 1, int(f * len(nonzero)))] for f in (0.25, 0.5, 0.75)]
+
+
+def _act_level(count, cuts):
+    if count <= 0:
+        return 0
+    for level, cut in enumerate(cuts, start=1):
+        if count <= cut:
+            return level
+    return 4
+
+
+def _act_longest_streak(series):
+    longest, run = 0, 0
+    for _iso, count in series:
+        run = run + 1 if count > 0 else 0
+        longest = max(longest, run)
+    return longest
+
+
+def _act_count(item):
+    return item[1]
+
+
+def _act_pt(origin, week, day):
+    return (origin[0] + week * ACT_WEEK[0] + day * ACT_DAY[0],
+            origin[1] + week * ACT_WEEK[1] + day * ACT_DAY[1])
+
+
+def _act_lift(point, height):
+    return (point[0], point[1] - height)
+
+
+def _act_poly(points, cls):
+    return '<polygon class="%s" points="%s"/>' % (
+        cls, " ".join("%.1f,%.1f" % (x, y) for x, y in points))
+
+
+def write_activity(days):
+    today = date.today().isoformat()
+    series = [(iso, count) for iso, count in days if iso <= today]
+    first = next((iso for iso, count in series if count > 0), None)
+
+    parts = [
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" '
+        'role="img" aria-label="Contribution activity">' % (ACT_W, ACT_H, ACT_W, ACT_H),
+        "<style>%s %s .t{font-family:%s}</style>" % (THEME_CSS, _act_level_css(), FONT),
+        _dark_bg(ACT_W, ACT_H),
+    ]
+    if not first:
+        parts.append('<text class="t muted" x="24" y="40" font-size="13">no contributions yet</text>')
+        parts.append("</svg>")
+        (OUT / "activity.svg").write_text("\n".join(parts), encoding="utf-8")
+        return
+
+    start = date.fromisoformat(first)
+    sunday = start - timedelta(days=(start.weekday() + 1) % 7)
+    window = [(iso, count) for iso, count in series if iso >= sunday.isoformat()]
+    active = [(iso, count) for iso, count in series if iso >= first]
+
+    total = sum(count for _iso, count in active)
+    active_days = sum(1 for _iso, count in active if count > 0)
+    longest = _act_longest_streak(active)
+    best_iso, best = max(active, key=_act_count)
+    cuts = _act_cuts([count for _iso, count in active])
+
+    if start - date.fromisoformat(series[0][0]) <= timedelta(days=7):
+        title = "last 12 months"
+    else:
+        title = "since %s %d, %d" % (MONTH_NAMES[start.month - 1], start.day, start.year)
     parts.append(
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" '
-        'width="%d" height="%d" role="img" aria-label="Contributions per month">'
-        % (w, h, w, h)
-    )
-    parts.append("<style>%s .t{font-family:%s}</style>" % (THEME_CSS, FONT))
-    parts.append(
-        '<defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">'
-        '<stop offset="0%%" stop-color="%s" stop-opacity="0.55"/>'
-        '<stop offset="100%%" stop-color="%s"/></linearGradient></defs>'
-        % (ACCENT, ACCENT_2)
+        '<text class="t fg" x="24" y="30" font-size="15" font-weight="700">'
+        'Contributions &#183; %s</text>' % title
     )
 
-    parts.append(
-        '<text class="t fg" x="%d" y="26" font-size="15" font-weight="700">'
-        'Contributions &#183; last 12 months</text>' % left
-    )
+    origin = (7 * -ACT_DAY[0] + 34, 62 + ACT_MAX_H)
+    cells = []
+    for index, item in enumerate(window):
+        week, day = divmod(index, 7)
+        cells.append((week * ACT_WEEK[1] + day * ACT_DAY[1], week, day, item[0], item[1]))
+    cells.sort()  # back to front
 
-    for step in range(4):
-        y = top + (plot_h / 3.0) * step
-        value = int(round(peak - (peak / 3.0) * step))
+    pad = (1.0 - ACT_FILL) / 2.0
+    for _depth, week, day, iso, count in cells:
+        level = _act_level(count, cuts) if iso >= first else 0
+        height = 3.0 + (ACT_MAX_H - 3.0) * math.sqrt(count / float(max(1, best)))
+        a = _act_pt(origin, week + pad, day + pad)
+        b = _act_pt(origin, week + 1 - pad, day + pad)
+        c = _act_pt(origin, week + 1 - pad, day + 1 - pad)
+        d = _act_pt(origin, week + pad, day + 1 - pad)
         parts.append(
-            '<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" class="grid" '
-            'stroke-width="1" opacity="0.5"/>' % (left, y, w - right, y)
+            '<g opacity="0"><animate attributeName="opacity" from="0" to="1" '
+            'begin="%.2fs" dur="0.45s" fill="freeze"/>' % (0.15 + week * 0.035)
         )
-        parts.append(
-            '<text class="t muted" x="%d" y="%.1f" font-size="10" '
-            'text-anchor="end">%d</text>' % (left - 8, y + 3, value)
-        )
+        parts.append(_act_poly([_act_lift(d, height), _act_lift(c, height), c, d], "l%dl" % level))
+        parts.append(_act_poly([_act_lift(b, height), _act_lift(c, height), c, b], "l%dr" % level))
+        parts.append(_act_poly([_act_lift(a, height), _act_lift(b, height),
+                                _act_lift(c, height), _act_lift(d, height)], "l%dt" % level))
+        parts.append("</g>")
 
-    for index, item in enumerate(totals):
-        key, value = item
-        bar_h = (value / float(peak)) * plot_h
-        x = left + slot * index + (slot - bar_w) / 2.0
-        y = top + plot_h - bar_h
-        delay = 0.15 + index * 0.07
-        parts.append(
-            '<rect x="%.1f" y="%.1f" width="%.1f" height="0" rx="4" fill="url(#bar)">'
-            '<animate attributeName="height" from="0" to="%.1f" begin="%.2fs" '
-            'dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" '
-            'keyTimes="0;1"/>'
-            '<animate attributeName="y" from="%.1f" to="%.1f" begin="%.2fs" '
-            'dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1" '
-            'keyTimes="0;1"/></rect>'
-            % (x, top + plot_h, bar_w, bar_h, delay, top + plot_h, y, delay)
-        )
-        parts.append(
-            '<text class="t fg" x="%.1f" y="%.1f" font-size="11" '
-            'text-anchor="middle" opacity="0">%d'
-            '<animate attributeName="opacity" from="0" to="1" begin="%.2fs" '
-            'dur="0.5s" fill="freeze"/></text>'
-            % (x + bar_w / 2.0, y - 7, value, delay + 0.7)
-        )
-        month_index = int(key[5:7]) - 1
-        parts.append(
-            '<text class="t muted" x="%.1f" y="%d" font-size="11" '
-            'text-anchor="middle">%s</text>'
-            % (x + bar_w / 2.0, top + plot_h + 20, MONTH_NAMES[month_index])
-        )
+    stats = [
+        ("{:,}".format(total), "contributions"),
+        ("%d-day" % longest, "longest streak"),
+        ("%d" % active_days, "active days &#183; %d%%" % round(100.0 * active_days / len(active))),
+        ("%d" % best, "best day &#183; %s %d" % (MONTH_NAMES[int(best_iso[5:7]) - 1], int(best_iso[8:10]))),
+    ]
+    for index, item in enumerate(stats):
+        value, label = item
+        x = 590 + (index % 2) * 170
+        y = 112 + (index // 2) * 92
+        parts.append('<rect x="%d" y="%d" width="3" height="40" rx="1.5" fill="%s" opacity="%.2f"/>'
+                     % (x - 14, y - 30, ACCENT, 1.0 if index == 1 else 0.45))
+        parts.append('<text class="t fg" x="%d" y="%d" font-size="30" font-weight="700">%s</text>'
+                     % (x, y, value))
+        parts.append('<text class="t muted" x="%d" y="%d" font-size="11">%s</text>'
+                     % (x, y + 20, label))
 
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    parts.append(
-        '<text class="t muted" x="%d" y="%d" font-size="10" text-anchor="end">'
-        'generated %s</text>' % (w - right, h - 12, stamp)
-    )
-
+    parts.append('<text class="t muted" x="%d" y="%d" font-size="10" text-anchor="end">'
+                 'generated %s</text>' % (ACT_W - 24, ACT_H - 12, stamp))
     parts.append("</svg>")
-    (OUT / "commit-race.svg").write_text("\n".join(parts), encoding="utf-8")
+    (OUT / "activity.svg").write_text("\n".join(parts), encoding="utf-8")
 
 
 def write_divider():
@@ -594,13 +634,11 @@ def main():
 
     days = fetch_calendar()
     if days:
-        write_commit_race(monthly_totals(days))
+        write_activity(days)
+    elif not (OUT / "activity.svg").exists():
+        write_activity([])
     else:
-        target = OUT / "commit-race.svg"
-        if not target.exists():
-            write_commit_race(monthly_totals([]))
-        else:
-            print("keeping existing commit-race.svg")
+        print("keeping existing activity.svg")
 
     print("done")
 

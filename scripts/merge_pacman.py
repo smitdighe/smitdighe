@@ -1,17 +1,16 @@
-"""Merge the light + dark Pac-Man SVGs into one theme-adaptive SVG.
+"""Build the README's Pac-Man graph from the dark variant only.
 
-GitHub's <picture> + prefers-color-scheme follows the OS setting, not the
-GitHub theme, so a dark GitHub page on a light OS shows the light file.
-A single SVG that switches via an internal @media rule follows the page's
-color-scheme instead (same mechanism as orbit.svg / header.svg).
+The profile is dark-themed on purpose: light-mode visitors get the same dark
+graph, framed on a rounded dark card like the other README images.
 """
 import re
 from pathlib import Path
 
 ASSETS = Path("assets")
-LIGHT = ASSETS / "pacman-contribution-graph.svg"
 DARK = ASSETS / "pacman-contribution-graph-dark.svg"
 OUT = ASSETS / "pacman-contribution-graph-auto.svg"
+BG = "#0d1117"
+PAD = 14
 
 ROOT_RE = re.compile(r"<svg\b([^>]*)>(.*)</svg>\s*$", re.S)
 
@@ -28,30 +27,16 @@ def split_root(text):
     return float(width.group(1)), float(height.group(1)), body
 
 
-def prefix_ids(body, prefix):
-    body = re.sub(r'\bid="([^"]+)"', r'id="%s\1"' % prefix, body)
-    body = re.sub(r'((?:xlink:)?href)="#([^"]+)"', r'\1="#%s\2"' % prefix, body)
-    body = re.sub(r"url\(#([^)]+)\)", r"url(#%s\1)" % prefix, body)
-    return body
-
-
 def main():
-    lw, lh, light = split_root(LIGHT.read_text(encoding="utf-8"))
-    dw, dh, dark = split_root(DARK.read_text(encoding="utf-8"))
-    w, h = max(lw, dw), max(lh, dh)
-    light = prefix_ids(light, "l-")
-    dark = prefix_ids(dark, "d-")
-    box = 'width="%g" height="%g" viewBox="0 0 %g %g"' % (w, h, w, h)
+    w, h, body = split_root(DARK.read_text(encoding="utf-8"))
+    ow, oh = w + 2 * PAD, h + 2 * PAD
     OUT.write_text(
         '<svg xmlns="http://www.w3.org/2000/svg" '
-        'xmlns:xlink="http://www.w3.org/1999/xlink" %s role="img" '
-        'aria-label="Pac-Man contribution graph">'
-        "<style>.pm-dark{display:none}"
-        "@media (prefers-color-scheme: dark){.pm-light{display:none}.pm-dark{display:inline}}"
-        "</style>"
-        '<svg class="pm-light" %s>%s</svg>'
-        '<svg class="pm-dark" %s>%s</svg>'
-        "</svg>\n" % (box, box, light, box, dark),
+        'xmlns:xlink="http://www.w3.org/1999/xlink" width="%g" height="%g" '
+        'viewBox="0 0 %g %g" role="img" aria-label="Pac-Man contribution graph">'
+        '<rect width="%g" height="%g" rx="10" fill="%s"/>'
+        '<svg x="%d" y="%d" width="%g" height="%g" viewBox="0 0 %g %g">%s</svg>'
+        "</svg>\n" % (ow, oh, ow, oh, ow, oh, BG, PAD, PAD, w, h, w, h, body),
         encoding="utf-8",
     )
     print("wrote", OUT, OUT.stat().st_size, "bytes")
