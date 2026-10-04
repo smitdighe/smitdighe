@@ -3,16 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://smit-dighe-portfolio.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/smit-dighe-a02422337/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:smitdighe@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=smitdighe&label=PROFILE+VIEWS&color=FF7B54&style=for-the-badge" alt="Profile views" />
+  <a href="https://smit-dighe-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/smit-dighe"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:smitdighe@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fsmitdighe&label=PROFILE%20VIEWS&labelColor=%23000000&countColor=%23ff7b54&style=for-the-badge" alt="Profile views" />
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
@@ -101,7 +95,7 @@ Defended every design decision under judge cross-questioning — including flagg
 ## Activity
 
 <p align="center">
-  <img src="./assets/commit-race.svg" width="100%" alt="Contributions per month" />
+  <img src="./assets/activity.svg" width="100%" alt="Contribution activity" />
 </p>
 
 <br />
