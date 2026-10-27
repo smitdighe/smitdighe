@@ -937,6 +937,11 @@
 <polygon class="l0r" points="455.8,235.6 450.1,240.4 450.1,243.4 455.8,238.6"/>
 <polygon class="l0t" points="443.4,232.0 455.8,235.6 450.1,240.4 437.8,236.8"/>
 </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.45s" fill="freeze"/>
+<polygon class="l0l" points="498.2,238.0 510.7,241.6 510.7,244.6 498.2,241.0"/>
+<polygon class="l0r" points="516.2,236.8 510.7,241.6 510.7,244.6 516.2,239.8"/>
+<polygon class="l0t" points="503.8,233.2 516.2,236.8 510.7,241.6 498.2,238.0"/>
+</g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.45s" fill="freeze"/>
 <polygon class="l0l" points="415.2,238.4 427.6,242.0 427.6,245.0 415.2,241.4"/>
 <polygon class="l0r" points="433.2,237.2 427.6,242.0 427.6,245.0 433.2,240.2"/>
@@ -1009,5 +1014,5 @@
 <rect x="746" y="174" width="3" height="40" rx="1.5" fill="#FF7B54" opacity="0.45"/>
 <text class="t fg" x="760" y="204" font-size="30" font-weight="700">36</text>
 <text class="t muted" x="760" y="224" font-size="11">best day &#183; Apr 20</text>
-<text class="t muted" x="876" y="258" font-size="10" text-anchor="end">generated 2026-10-26 11:06 UTC</text>
+<text class="t muted" x="876" y="258" font-size="10" text-anchor="end">generated 2026-10-27 10:32 UTC</text>
 </svg>
