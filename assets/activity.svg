@@ -937,6 +937,11 @@
 <polygon class="l3r" points="395.2,217.9 389.6,222.7 389.6,242.2 395.2,237.4"/>
 <polygon class="l3t" points="382.9,214.3 395.2,217.9 389.6,222.7 377.2,219.1"/>
 </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.45s" fill="freeze"/>
+<polygon class="l0l" points="520.8,236.4 533.2,240.0 533.2,243.0 520.8,239.4"/>
+<polygon class="l0r" points="538.8,235.2 533.2,240.0 533.2,243.0 538.8,238.2"/>
+<polygon class="l0t" points="526.3,231.6 538.8,235.2 533.2,240.0 520.8,236.4"/>
+</g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.03s" dur="0.45s" fill="freeze"/>
 <polygon class="l0l" points="437.8,236.8 450.1,240.4 450.1,243.4 437.8,239.8"/>
 <polygon class="l0r" points="455.8,235.6 450.1,240.4 450.1,243.4 455.8,238.6"/>
@@ -1035,9 +1040,9 @@
 <text class="t muted" x="760" y="132" font-size="11">longest streak</text>
 <rect x="576" y="174" width="3" height="40" rx="1.5" fill="#FF7B54" opacity="0.45"/>
 <text class="t fg" x="590" y="204" font-size="30" font-weight="700">157</text>
-<text class="t muted" x="590" y="224" font-size="11">active days &#183; 78%</text>
+<text class="t muted" x="590" y="224" font-size="11">active days &#183; 77%</text>
 <rect x="746" y="174" width="3" height="40" rx="1.5" fill="#FF7B54" opacity="0.45"/>
 <text class="t fg" x="760" y="204" font-size="30" font-weight="700">36</text>
 <text class="t muted" x="760" y="224" font-size="11">best day &#183; Apr 20</text>
-<text class="t muted" x="876" y="258" font-size="10" text-anchor="end">generated 2026-11-01 11:49 UTC</text>
+<text class="t muted" x="876" y="258" font-size="10" text-anchor="end">generated 2026-11-02 13:29 UTC</text>
 </svg>
