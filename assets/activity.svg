@@ -73,14 +73,14 @@
 <polygon class="l4t" points="100.9,97.0 113.2,100.5 107.6,105.3 95.3,101.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="155.8,113.2 168.1,116.7 168.1,131.4 155.8,127.8"/>
-<polygon class="l2r" points="173.8,111.9 168.1,116.7 168.1,131.4 173.8,126.6"/>
-<polygon class="l2t" points="161.4,108.4 173.8,111.9 168.1,116.7 155.8,113.2"/>
+<polygon class="l1l" points="155.8,113.2 168.1,116.7 168.1,131.4 155.8,127.8"/>
+<polygon class="l1r" points="173.8,111.9 168.1,116.7 168.1,131.4 173.8,126.6"/>
+<polygon class="l1t" points="161.4,108.4 173.8,111.9 168.1,116.7 155.8,113.2"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.18s" dur="0.45s" fill="freeze"/>
-<polygon class="l3l" points="72.8,105.9 85.2,109.4 85.2,131.8 72.8,128.2"/>
-<polygon class="l3r" points="90.8,104.6 85.2,109.4 85.2,131.8 90.8,127.0"/>
-<polygon class="l3t" points="78.3,101.1 90.8,104.6 85.2,109.4 72.8,105.9"/>
+<polygon class="l4l" points="72.8,105.9 85.2,109.4 85.2,131.8 72.8,128.2"/>
+<polygon class="l4r" points="90.8,104.6 85.2,109.4 85.2,131.8 90.8,127.0"/>
+<polygon class="l4t" points="78.3,101.1 90.8,104.6 85.2,109.4 72.8,105.9"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.29s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="133.2,118.2 145.6,121.7 145.6,133.0 133.2,129.4"/>
@@ -168,9 +168,9 @@
 <polygon class="l1t" points="124.9,127.8 137.2,131.3 131.6,136.1 119.3,132.6"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="36.2,127.2 48.6,130.7 48.6,145.4 36.2,141.8"/>
-<polygon class="l2r" points="54.3,125.9 48.6,130.7 48.6,145.4 54.3,140.6"/>
-<polygon class="l2t" points="41.9,122.4 54.3,125.9 48.6,130.7 36.2,127.2"/>
+<polygon class="l1l" points="36.2,127.2 48.6,130.7 48.6,145.4 36.2,141.8"/>
+<polygon class="l1r" points="54.3,125.9 48.6,130.7 48.6,145.4 54.3,140.6"/>
+<polygon class="l1t" points="41.9,122.4 54.3,125.9 48.6,130.7 36.2,127.2"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.45s" fill="freeze"/>
 <polygon class="l2l" points="179.8,125.4 192.1,128.9 192.1,146.2 179.8,142.6"/>
@@ -178,14 +178,14 @@
 <polygon class="l2t" points="185.4,120.6 197.8,124.1 192.1,128.9 179.8,125.4"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.26s" dur="0.45s" fill="freeze"/>
-<polygon class="l3l" points="96.8,120.7 109.1,124.2 109.1,146.6 96.8,143.0"/>
-<polygon class="l3r" points="114.8,119.4 109.1,124.2 109.1,146.6 114.8,141.8"/>
-<polygon class="l3t" points="102.4,115.9 114.8,119.4 109.1,124.2 96.8,120.7"/>
+<polygon class="l4l" points="96.8,120.7 109.1,124.2 109.1,146.6 96.8,143.0"/>
+<polygon class="l4r" points="114.8,119.4 109.1,124.2 109.1,146.6 114.8,141.8"/>
+<polygon class="l4t" points="102.4,115.9 114.8,119.4 109.1,124.2 96.8,120.7"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="157.2,129.6 169.6,133.1 169.6,147.8 157.2,144.2"/>
-<polygon class="l2r" points="175.2,128.3 169.6,133.1 169.6,147.8 175.2,143.0"/>
-<polygon class="l2t" points="162.9,124.8 175.2,128.3 169.6,133.1 157.2,129.6"/>
+<polygon class="l1l" points="157.2,129.6 169.6,133.1 169.6,147.8 157.2,144.2"/>
+<polygon class="l1r" points="175.2,128.3 169.6,133.1 169.6,147.8 175.2,143.0"/>
+<polygon class="l1t" points="162.9,124.8 175.2,128.3 169.6,133.1 157.2,129.6"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.22s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="74.2,131.5 86.6,135.1 86.6,148.2 74.2,144.6"/>
@@ -198,9 +198,9 @@
 <polygon class="l4t" points="223.3,111.6 235.8,115.1 230.2,119.9 217.7,116.4"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="134.8,131.2 147.1,134.7 147.1,149.4 134.8,145.8"/>
-<polygon class="l2r" points="152.8,129.9 147.1,134.7 147.1,149.4 152.8,144.6"/>
-<polygon class="l2t" points="140.4,126.4 152.8,129.9 147.1,134.7 134.8,131.2"/>
+<polygon class="l1l" points="134.8,131.2 147.1,134.7 147.1,149.4 134.8,145.8"/>
+<polygon class="l1r" points="152.8,129.9 147.1,134.7 147.1,149.4 152.8,144.6"/>
+<polygon class="l1t" points="140.4,126.4 152.8,129.9 147.1,134.7 134.8,131.2"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.18s" dur="0.45s" fill="freeze"/>
 <polygon class="l4l" points="51.7,117.8 64.2,121.3 64.2,149.8 51.7,146.2"/>
@@ -208,9 +208,9 @@
 <polygon class="l4t" points="57.4,113.0 69.8,116.5 64.2,121.3 51.7,117.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.43s" dur="0.45s" fill="freeze"/>
-<polygon class="l3l" points="195.2,124.7 207.7,128.2 207.7,150.6 195.2,147.0"/>
-<polygon class="l3r" points="213.3,123.4 207.7,128.2 207.7,150.6 213.3,145.8"/>
-<polygon class="l3t" points="200.9,119.9 213.3,123.4 207.7,128.2 195.2,124.7"/>
+<polygon class="l4l" points="195.2,124.7 207.7,128.2 207.7,150.6 195.2,147.0"/>
+<polygon class="l4r" points="213.3,123.4 207.7,128.2 207.7,150.6 213.3,145.8"/>
+<polygon class="l4t" points="200.9,119.9 213.3,123.4 207.7,128.2 195.2,124.7"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.29s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="112.2,138.6 124.6,142.1 124.6,151.0 112.2,147.4"/>
@@ -293,9 +293,9 @@
 <polygon class="l3t" points="209.3,132.1 221.8,135.7 216.2,140.5 203.7,136.9"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="120.8,143.2 133.1,146.7 133.1,161.4 120.8,157.8"/>
-<polygon class="l2r" points="138.8,141.9 133.1,146.7 133.1,161.4 138.8,156.6"/>
-<polygon class="l2t" points="126.4,138.4 138.8,141.9 133.1,146.7 120.8,143.2"/>
+<polygon class="l1l" points="120.8,143.2 133.1,146.7 133.1,161.4 120.8,157.8"/>
+<polygon class="l1r" points="138.8,141.9 133.1,146.7 133.1,161.4 138.8,156.6"/>
+<polygon class="l1t" points="126.4,138.4 138.8,141.9 133.1,146.7 120.8,143.2"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.57s" dur="0.45s" fill="freeze"/>
 <polygon class="l3l" points="264.2,138.1 276.7,141.7 276.7,162.2 264.2,158.6"/>
@@ -393,9 +393,9 @@
 <polygon class="l3t" points="195.3,143.2 207.8,146.7 202.2,151.5 189.7,148.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.57s" dur="0.45s" fill="freeze"/>
-<polygon class="l3l" points="250.2,148.3 262.7,151.8 262.7,174.2 250.2,170.6"/>
-<polygon class="l3r" points="268.3,147.0 262.7,151.8 262.7,174.2 268.3,169.4"/>
-<polygon class="l3t" points="255.8,143.5 268.3,147.0 262.7,151.8 250.2,148.3"/>
+<polygon class="l4l" points="250.2,148.3 262.7,151.8 262.7,174.2 250.2,170.6"/>
+<polygon class="l4r" points="268.3,147.0 262.7,151.8 262.7,174.2 268.3,169.4"/>
+<polygon class="l4t" points="255.8,143.5 268.3,147.0 262.7,151.8 250.2,148.3"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.43s" dur="0.45s" fill="freeze"/>
 <polygon class="l2l" points="167.2,153.8 179.7,157.3 179.7,174.6 167.2,171.0"/>
@@ -413,9 +413,9 @@
 <polygon class="l2t" points="233.3,150.2 245.8,153.7 240.2,158.5 227.7,155.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="144.8,158.0 157.1,161.5 157.1,176.2 144.8,172.6"/>
-<polygon class="l2r" points="162.8,156.7 157.1,161.5 157.1,176.2 162.8,171.4"/>
-<polygon class="l2t" points="150.4,153.2 162.8,156.7 157.1,161.5 144.8,158.0"/>
+<polygon class="l1l" points="144.8,158.0 157.1,161.5 157.1,176.2 144.8,172.6"/>
+<polygon class="l1r" points="162.8,156.7 157.1,161.5 157.1,176.2 162.8,171.4"/>
+<polygon class="l1t" points="150.4,153.2 162.8,156.7 157.1,161.5 144.8,158.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.64s" dur="0.45s" fill="freeze"/>
 <polygon class="l2l" points="288.2,157.4 300.7,160.9 300.7,177.0 288.2,173.4"/>
@@ -473,9 +473,9 @@
 <polygon class="l1t" points="203.8,161.9 216.3,165.5 210.7,170.3 198.2,166.7"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.45s" fill="freeze"/>
-<polygon class="l3l" points="341.8,158.3 354.1,161.8 354.1,184.2 341.8,180.6"/>
-<polygon class="l3r" points="359.8,157.0 354.1,161.8 354.1,184.2 359.8,179.4"/>
-<polygon class="l3t" points="347.4,153.5 359.8,157.0 354.1,161.8 341.8,158.3"/>
+<polygon class="l4l" points="341.8,158.3 354.1,161.8 354.1,184.2 341.8,180.6"/>
+<polygon class="l4r" points="359.8,157.0 354.1,161.8 354.1,184.2 359.8,179.4"/>
+<polygon class="l4t" points="347.4,153.5 359.8,157.0 354.1,161.8 341.8,158.3"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.61s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="258.7,172.2 271.2,175.7 271.2,184.6 258.7,181.0"/>
@@ -558,9 +558,9 @@
 <polygon class="l2t" points="212.3,167.0 224.8,170.5 219.2,175.3 206.7,171.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.78s" dur="0.45s" fill="freeze"/>
-<polygon class="l3l" points="350.2,168.7 362.6,172.2 362.6,194.6 350.2,191.0"/>
-<polygon class="l3r" points="368.2,167.4 362.6,172.2 362.6,194.6 368.2,189.8"/>
-<polygon class="l3t" points="355.9,163.9 368.2,167.4 362.6,172.2 350.2,168.7"/>
+<polygon class="l4l" points="350.2,168.7 362.6,172.2 362.6,194.6 350.2,191.0"/>
+<polygon class="l4r" points="368.2,167.4 362.6,172.2 362.6,194.6 368.2,189.8"/>
+<polygon class="l4t" points="355.9,163.9 368.2,167.4 362.6,172.2 350.2,168.7"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.64s" dur="0.45s" fill="freeze"/>
 <polygon class="l2l" points="267.2,173.0 279.7,176.5 279.7,195.0 267.2,191.4"/>
@@ -583,9 +583,9 @@
 <polygon class="l0t" points="393.9,186.0 406.2,189.6 400.6,194.4 388.2,190.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.71s" dur="0.45s" fill="freeze"/>
-<polygon class="l3l" points="305.2,171.9 317.6,175.4 317.6,197.8 305.2,194.2"/>
-<polygon class="l3r" points="323.2,170.6 317.6,175.4 317.6,197.8 323.2,193.0"/>
-<polygon class="l3t" points="310.9,167.1 323.2,170.6 317.6,175.4 305.2,171.9"/>
+<polygon class="l4l" points="305.2,171.9 317.6,175.4 317.6,197.8 305.2,194.2"/>
+<polygon class="l4r" points="323.2,170.6 317.6,175.4 317.6,197.8 323.2,193.0"/>
+<polygon class="l4t" points="310.9,167.1 323.2,170.6 317.6,175.4 305.2,171.9"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.57s" dur="0.45s" fill="freeze"/>
 <polygon class="l3l" points="222.2,174.1 234.7,177.7 234.7,198.2 222.2,194.6"/>
@@ -723,9 +723,9 @@
 <polygon class="l0t" points="455.9,203.6 468.2,207.2 462.6,212.0 450.2,208.4"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="367.2,208.8 379.6,212.4 379.6,215.4 367.2,211.8"/>
-<polygon class="l0r" points="385.2,207.6 379.6,212.4 379.6,215.4 385.2,210.6"/>
-<polygon class="l0t" points="372.9,204.0 385.2,207.6 379.6,212.4 367.2,208.8"/>
+<polygon class="l3l" points="367.2,192.3 379.6,195.9 379.6,215.4 367.2,211.8"/>
+<polygon class="l3r" points="385.2,191.1 379.6,195.9 379.6,215.4 385.2,210.6"/>
+<polygon class="l3t" points="372.9,187.5 385.2,191.1 379.6,195.9 367.2,192.3"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.71s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="284.2,203.4 296.6,206.9 296.6,215.8 284.2,212.2"/>
@@ -738,9 +738,9 @@
 <polygon class="l0t" points="433.4,205.2 445.8,208.8 440.1,213.6 427.8,210.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.82s" dur="0.45s" fill="freeze"/>
-<polygon class="l3l" points="344.8,191.1 357.1,194.6 357.1,217.0 344.8,213.4"/>
-<polygon class="l3r" points="362.8,189.8 357.1,194.6 357.1,217.0 362.8,212.2"/>
-<polygon class="l3t" points="350.4,186.3 362.8,189.8 357.1,194.6 344.8,191.1"/>
+<polygon class="l4l" points="344.8,191.1 357.1,194.6 357.1,217.0 344.8,213.4"/>
+<polygon class="l4r" points="362.8,189.8 357.1,194.6 357.1,217.0 362.8,212.2"/>
+<polygon class="l4t" points="350.4,186.3 362.8,189.8 357.1,194.6 344.8,191.1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.45s" fill="freeze"/>
 <polygon class="l2l" points="405.2,198.6 417.6,202.1 417.6,218.2 405.2,214.6"/>
@@ -773,14 +773,14 @@
 <polygon class="l4t" points="448.9,180.5 461.2,184.0 455.6,188.8 443.2,185.3"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="360.2,214.8 372.6,218.4 372.6,221.4 360.2,217.8"/>
-<polygon class="l0r" points="378.2,213.6 372.6,218.4 372.6,221.4 378.2,216.6"/>
-<polygon class="l0t" points="365.9,210.0 378.2,213.6 372.6,218.4 360.2,214.8"/>
+<polygon class="l3l" points="360.2,197.3 372.6,200.9 372.6,221.4 360.2,217.8"/>
+<polygon class="l3r" points="378.2,196.1 372.6,200.9 372.6,221.4 378.2,216.6"/>
+<polygon class="l3t" points="365.9,192.5 378.2,196.1 372.6,200.9 360.2,197.3"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="420.8,216.0 433.1,219.6 433.1,222.6 420.8,219.0"/>
-<polygon class="l0r" points="438.8,214.8 433.1,219.6 433.1,222.6 438.8,217.8"/>
-<polygon class="l0t" points="426.4,211.2 438.8,214.8 433.1,219.6 420.8,216.0"/>
+<polygon class="l3l" points="420.8,199.5 433.1,203.1 433.1,222.6 420.8,219.0"/>
+<polygon class="l3r" points="438.8,198.3 433.1,203.1 433.1,222.6 438.8,217.8"/>
+<polygon class="l3t" points="426.4,194.7 438.8,198.3 433.1,203.1 420.8,199.5"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.82s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="337.8,206.3 350.1,209.9 350.1,223.0 337.8,219.4"/>
@@ -818,9 +818,9 @@
 <polygon class="l1t" points="441.9,209.8 454.2,213.3 448.6,218.1 436.2,214.6"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="353.2,220.8 365.6,224.4 365.6,227.4 353.2,223.8"/>
-<polygon class="l0r" points="371.2,219.6 365.6,224.4 365.6,227.4 371.2,222.6"/>
-<polygon class="l0t" points="358.9,216.0 371.2,219.6 365.6,224.4 353.2,220.8"/>
+<polygon class="l3l" points="353.2,203.3 365.6,206.9 365.6,227.4 353.2,223.8"/>
+<polygon class="l3r" points="371.2,202.1 365.6,206.9 365.6,227.4 371.2,222.6"/>
+<polygon class="l3t" points="358.9,198.5 371.2,202.1 365.6,206.9 353.2,203.3"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.09s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="496.8,215.8 509.2,219.3 509.2,228.2 496.8,224.6"/>
@@ -848,9 +848,9 @@
 <polygon class="l3t" points="396.9,201.3 409.2,204.9 403.6,209.7 391.2,206.1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.03s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="451.8,213.2 464.1,216.7 464.1,231.4 451.8,227.8"/>
-<polygon class="l2r" points="469.8,211.9 464.1,216.7 464.1,231.4 469.8,226.6"/>
-<polygon class="l2t" points="457.4,208.4 469.8,211.9 464.1,216.7 451.8,213.2"/>
+<polygon class="l1l" points="451.8,213.2 464.1,216.7 464.1,231.4 451.8,227.8"/>
+<polygon class="l1r" points="469.8,211.9 464.1,216.7 464.1,231.4 469.8,226.6"/>
+<polygon class="l1t" points="457.4,208.4 469.8,211.9 464.1,216.7 451.8,213.2"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.89s" dur="0.45s" fill="freeze"/>
 <polygon class="l3l" points="368.8,208.7 381.1,212.3 381.1,231.8 368.8,228.2"/>
@@ -873,19 +873,19 @@
 <polygon class="l0t" points="351.9,222.0 364.2,225.6 358.6,230.4 346.2,226.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.09s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="489.8,216.0 502.2,219.5 502.2,234.2 489.8,230.6"/>
-<polygon class="l2r" points="507.8,214.7 502.2,219.5 502.2,234.2 507.8,229.4"/>
-<polygon class="l2t" points="495.4,211.2 507.8,214.7 502.2,219.5 489.8,216.0"/>
+<polygon class="l1l" points="489.8,216.0 502.2,219.5 502.2,234.2 489.8,230.6"/>
+<polygon class="l1r" points="507.8,214.7 502.2,219.5 502.2,234.2 507.8,229.4"/>
+<polygon class="l1t" points="495.4,211.2 507.8,214.7 502.2,219.5 489.8,216.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="406.8,228.0 419.1,231.6 419.1,234.6 406.8,231.0"/>
-<polygon class="l0r" points="424.8,226.8 419.1,231.6 419.1,234.6 424.8,229.8"/>
-<polygon class="l0t" points="412.4,223.2 424.8,226.8 419.1,231.6 406.8,228.0"/>
+<polygon class="l2l" points="406.8,215.0 419.1,218.5 419.1,234.6 406.8,231.0"/>
+<polygon class="l2r" points="424.8,213.7 419.1,218.5 419.1,234.6 424.8,229.8"/>
+<polygon class="l2t" points="412.4,210.2 424.8,213.7 419.1,218.5 406.8,215.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.06s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="467.2,229.2 479.6,232.8 479.6,235.8 467.2,232.2"/>
-<polygon class="l0r" points="485.2,228.0 479.6,232.8 479.6,235.8 485.2,231.0"/>
-<polygon class="l0t" points="472.9,224.4 485.2,228.0 479.6,232.8 467.2,229.2"/>
+<polygon class="l2l" points="467.2,216.2 479.6,219.7 479.6,235.8 467.2,232.2"/>
+<polygon class="l2r" points="485.2,214.9 479.6,219.7 479.6,235.8 485.2,231.0"/>
+<polygon class="l2t" points="472.9,211.4 485.2,214.9 479.6,219.7 467.2,216.2"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.45s" fill="freeze"/>
 <polygon class="l2l" points="384.2,216.6 396.6,220.1 396.6,236.2 384.2,232.6"/>
@@ -893,9 +893,9 @@
 <polygon class="l2t" points="389.9,211.8 402.2,215.3 396.6,220.1 384.2,216.6"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="527.8,230.4 540.2,234.0 540.2,237.0 527.8,233.4"/>
-<polygon class="l0r" points="545.8,229.2 540.2,234.0 540.2,237.0 545.8,232.2"/>
-<polygon class="l0t" points="533.3,225.6 545.8,229.2 540.2,234.0 527.8,230.4"/>
+<polygon class="l2l" points="527.8,216.2 540.2,219.7 540.2,237.0 527.8,233.4"/>
+<polygon class="l2r" points="545.8,214.9 540.2,219.7 540.2,237.0 545.8,232.2"/>
+<polygon class="l2t" points="533.3,211.4 545.8,214.9 540.2,219.7 527.8,216.2"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.03s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="444.8,225.0 457.1,228.5 457.1,237.4 444.8,233.8"/>
@@ -908,24 +908,24 @@
 <polygon class="l3t" points="367.4,208.0 379.8,211.5 374.1,216.3 361.8,212.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="505.2,232.0 517.7,235.6 517.7,238.6 505.2,235.0"/>
-<polygon class="l0r" points="523.2,230.8 517.7,235.6 517.7,238.6 523.2,233.8"/>
-<polygon class="l0t" points="510.8,227.2 523.2,230.8 517.7,235.6 505.2,232.0"/>
+<polygon class="l3l" points="505.2,215.5 517.7,219.1 517.7,238.6 505.2,235.0"/>
+<polygon class="l3r" points="523.2,214.3 517.7,219.1 517.7,238.6 523.2,233.8"/>
+<polygon class="l3t" points="510.8,210.7 523.2,214.3 517.7,219.1 505.2,215.5"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="422.2,232.4 434.6,236.0 434.6,239.0 422.2,235.4"/>
-<polygon class="l0r" points="440.2,231.2 434.6,236.0 434.6,239.0 440.2,234.2"/>
-<polygon class="l0t" points="427.9,227.6 440.2,231.2 434.6,236.0 422.2,232.4"/>
+<polygon class="l2l" points="422.2,217.0 434.6,220.5 434.6,239.0 422.2,235.4"/>
+<polygon class="l2r" points="440.2,215.7 434.6,220.5 434.6,239.0 440.2,234.2"/>
+<polygon class="l2t" points="427.9,212.2 440.2,215.7 434.6,220.5 422.2,217.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.09s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="482.8,233.6 495.2,237.2 495.2,240.2 482.8,236.6"/>
-<polygon class="l0r" points="500.8,232.4 495.2,237.2 495.2,240.2 500.8,235.4"/>
-<polygon class="l0t" points="488.4,228.8 500.8,232.4 495.2,237.2 482.8,233.6"/>
+<polygon class="l1l" points="482.8,222.0 495.2,225.5 495.2,240.2 482.8,236.6"/>
+<polygon class="l1r" points="500.8,220.7 495.2,225.5 495.2,240.2 500.8,235.4"/>
+<polygon class="l1t" points="488.4,217.2 500.8,220.7 495.2,225.5 482.8,222.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="399.8,234.0 412.1,237.6 412.1,240.6 399.8,237.0"/>
-<polygon class="l0r" points="417.8,232.8 412.1,237.6 412.1,240.6 417.8,235.8"/>
-<polygon class="l0t" points="405.4,229.2 417.8,232.8 412.1,237.6 399.8,234.0"/>
+<polygon class="l3l" points="399.8,217.5 412.1,221.1 412.1,240.6 399.8,237.0"/>
+<polygon class="l3r" points="417.8,216.3 412.1,221.1 412.1,240.6 417.8,235.8"/>
+<polygon class="l3t" points="405.4,212.7 417.8,216.3 412.1,221.1 399.8,217.5"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.45s" fill="freeze"/>
 <polygon class="l0l" points="543.2,234.8 555.7,238.4 555.7,241.4 543.2,237.8"/>
@@ -933,9 +933,9 @@
 <polygon class="l0t" points="548.8,230.0 561.2,233.6 555.7,238.4 543.2,234.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.06s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="460.2,235.2 472.6,238.8 472.6,241.8 460.2,238.2"/>
-<polygon class="l0r" points="478.2,234.0 472.6,238.8 472.6,241.8 478.2,237.0"/>
-<polygon class="l0t" points="465.9,230.4 478.2,234.0 472.6,238.8 460.2,235.2"/>
+<polygon class="l2l" points="460.2,221.0 472.6,224.5 472.6,241.8 460.2,238.2"/>
+<polygon class="l2r" points="478.2,219.7 472.6,224.5 472.6,241.8 478.2,237.0"/>
+<polygon class="l2t" points="465.9,216.2 478.2,219.7 472.6,224.5 460.2,221.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.45s" fill="freeze"/>
 <polygon class="l3l" points="377.2,219.1 389.6,222.7 389.6,242.2 377.2,238.6"/>
@@ -943,9 +943,9 @@
 <polygon class="l3t" points="382.9,214.3 395.2,217.9 389.6,222.7 377.2,219.1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="520.8,236.4 533.2,240.0 533.2,243.0 520.8,239.4"/>
-<polygon class="l0r" points="538.8,235.2 533.2,240.0 533.2,243.0 538.8,238.2"/>
-<polygon class="l0t" points="526.3,231.6 538.8,235.2 533.2,240.0 520.8,236.4"/>
+<polygon class="l3l" points="520.8,219.9 533.2,223.5 533.2,243.0 520.8,239.4"/>
+<polygon class="l3r" points="538.8,218.7 533.2,223.5 533.2,243.0 538.8,238.2"/>
+<polygon class="l3t" points="526.3,215.1 538.8,218.7 533.2,223.5 520.8,219.9"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.03s" dur="0.45s" fill="freeze"/>
 <polygon class="l0l" points="437.8,236.8 450.1,240.4 450.1,243.4 437.8,239.8"/>
@@ -953,9 +953,9 @@
 <polygon class="l0t" points="443.4,232.0 455.8,235.6 450.1,240.4 437.8,236.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="498.2,238.0 510.7,241.6 510.7,244.6 498.2,241.0"/>
-<polygon class="l0r" points="516.2,236.8 510.7,241.6 510.7,244.6 516.2,239.8"/>
-<polygon class="l0t" points="503.8,233.2 516.2,236.8 510.7,241.6 498.2,238.0"/>
+<polygon class="l2l" points="498.2,225.0 510.7,228.5 510.7,244.6 498.2,241.0"/>
+<polygon class="l2r" points="516.2,223.7 510.7,228.5 510.7,244.6 516.2,239.8"/>
+<polygon class="l2t" points="503.8,220.2 516.2,223.7 510.7,228.5 498.2,225.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.45s" fill="freeze"/>
 <polygon class="l0l" points="415.2,238.4 427.6,242.0 427.6,245.0 415.2,241.4"/>
@@ -963,9 +963,9 @@
 <polygon class="l0t" points="420.9,233.6 433.2,237.2 427.6,242.0 415.2,238.4"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.09s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="475.8,239.6 488.2,243.2 488.2,246.2 475.8,242.6"/>
-<polygon class="l0r" points="493.8,238.4 488.2,243.2 488.2,246.2 493.8,241.4"/>
-<polygon class="l0t" points="481.4,234.8 493.8,238.4 488.2,243.2 475.8,239.6"/>
+<polygon class="l3l" points="475.8,223.1 488.2,226.7 488.2,246.2 475.8,242.6"/>
+<polygon class="l3r" points="493.8,221.9 488.2,226.7 488.2,246.2 493.8,241.4"/>
+<polygon class="l3t" points="481.4,218.3 493.8,221.9 488.2,226.7 475.8,223.1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.45s" fill="freeze"/>
 <polygon class="l0l" points="392.8,240.0 405.1,243.6 405.1,246.6 392.8,243.0"/>
@@ -978,14 +978,14 @@
 <polygon class="l4t" points="541.8,208.7 554.2,212.2 548.7,217.0 536.2,213.5"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.06s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="453.2,241.2 465.6,244.8 465.6,247.8 453.2,244.2"/>
-<polygon class="l0r" points="471.2,240.0 465.6,244.8 465.6,247.8 471.2,243.0"/>
-<polygon class="l0t" points="458.9,236.4 471.2,240.0 465.6,244.8 453.2,241.2"/>
+<polygon class="l3l" points="453.2,223.7 465.6,227.3 465.6,247.8 453.2,244.2"/>
+<polygon class="l3r" points="471.2,222.5 465.6,227.3 465.6,247.8 471.2,243.0"/>
+<polygon class="l3t" points="458.9,218.9 471.2,222.5 465.6,227.3 453.2,223.7"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.45s" fill="freeze"/>
-<polygon class="l2l" points="513.8,230.8 526.2,234.3 526.2,249.0 513.8,245.4"/>
-<polygon class="l2r" points="531.8,229.5 526.2,234.3 526.2,249.0 531.8,244.2"/>
-<polygon class="l2t" points="519.3,226.0 531.8,229.5 526.2,234.3 513.8,230.8"/>
+<polygon class="l1l" points="513.8,230.8 526.2,234.3 526.2,249.0 513.8,245.4"/>
+<polygon class="l1r" points="531.8,229.5 526.2,234.3 526.2,249.0 531.8,244.2"/>
+<polygon class="l1t" points="519.3,226.0 531.8,229.5 526.2,234.3 513.8,230.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.03s" dur="0.45s" fill="freeze"/>
 <polygon class="l3l" points="430.8,224.4 443.1,227.9 443.1,249.4 430.8,245.8"/>
@@ -993,19 +993,19 @@
 <polygon class="l3t" points="436.4,219.6 448.8,223.1 443.1,227.9 430.8,224.4"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="491.2,244.0 503.7,247.6 503.7,250.6 491.2,247.0"/>
-<polygon class="l0r" points="509.3,242.8 503.7,247.6 503.7,250.6 509.3,245.8"/>
-<polygon class="l0t" points="496.8,239.2 509.3,242.8 503.7,247.6 491.2,244.0"/>
+<polygon class="l2l" points="491.2,228.6 503.7,232.1 503.7,250.6 491.2,247.0"/>
+<polygon class="l2r" points="509.3,227.3 503.7,232.1 503.7,250.6 509.3,245.8"/>
+<polygon class="l2t" points="496.8,223.8 509.3,227.3 503.7,232.1 491.2,228.6"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="408.2,244.4 420.6,248.0 420.6,251.0 408.2,247.4"/>
-<polygon class="l0r" points="426.2,243.2 420.6,248.0 420.6,251.0 426.2,246.2"/>
-<polygon class="l0t" points="413.9,239.6 426.2,243.2 420.6,248.0 408.2,244.4"/>
+<polygon class="l3l" points="408.2,227.9 420.6,231.5 420.6,251.0 408.2,247.4"/>
+<polygon class="l3r" points="426.2,226.7 420.6,231.5 420.6,251.0 426.2,246.2"/>
+<polygon class="l3t" points="413.9,223.1 426.2,226.7 420.6,231.5 408.2,227.9"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.09s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="468.8,245.6 481.2,249.2 481.2,252.2 468.8,248.6"/>
-<polygon class="l0r" points="486.8,244.4 481.2,249.2 481.2,252.2 486.8,247.4"/>
-<polygon class="l0t" points="474.4,240.8 486.8,244.4 481.2,249.2 468.8,245.6"/>
+<polygon class="l3l" points="468.8,228.1 481.2,231.7 481.2,252.2 468.8,248.6"/>
+<polygon class="l3r" points="486.8,226.9 481.2,231.7 481.2,252.2 486.8,247.4"/>
+<polygon class="l3t" points="474.4,223.3 486.8,226.9 481.2,231.7 468.8,228.1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.45s" fill="freeze"/>
 <polygon class="l3l" points="529.2,228.4 541.7,231.9 541.7,253.4 529.2,249.8"/>
@@ -1018,9 +1018,9 @@
 <polygon class="l0t" points="451.9,242.4 464.2,246.0 458.6,250.8 446.2,247.2"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="506.7,248.4 519.2,252.0 519.2,255.0 506.7,251.4"/>
-<polygon class="l0r" points="524.8,247.2 519.2,252.0 519.2,255.0 524.8,250.2"/>
-<polygon class="l0t" points="512.3,243.6 524.8,247.2 519.2,252.0 506.7,248.4"/>
+<polygon class="l1l" points="506.7,236.8 519.2,240.3 519.2,255.0 506.7,251.4"/>
+<polygon class="l1r" points="524.8,235.5 519.2,240.3 519.2,255.0 524.8,250.2"/>
+<polygon class="l1t" points="512.3,232.0 524.8,235.5 519.2,240.3 506.7,236.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.03s" dur="0.45s" fill="freeze"/>
 <polygon class="l2l" points="423.8,235.8 436.1,239.3 436.1,255.4 423.8,251.8"/>
@@ -1028,14 +1028,14 @@
 <polygon class="l2t" points="429.4,231.0 441.8,234.5 436.1,239.3 423.8,235.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="484.2,250.0 496.7,253.6 496.7,256.6 484.2,253.0"/>
-<polygon class="l0r" points="502.3,248.8 496.7,253.6 496.7,256.6 502.3,251.8"/>
-<polygon class="l0t" points="489.8,245.2 502.3,248.8 496.7,253.6 484.2,250.0"/>
+<polygon class="l3l" points="484.2,232.5 496.7,236.1 496.7,256.6 484.2,253.0"/>
+<polygon class="l3r" points="502.3,231.3 496.7,236.1 496.7,256.6 502.3,251.8"/>
+<polygon class="l3t" points="489.8,227.7 502.3,231.3 496.7,236.1 484.2,232.5"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.09s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="461.8,251.6 474.2,255.2 474.2,258.2 461.8,254.6"/>
-<polygon class="l0r" points="479.8,250.4 474.2,255.2 474.2,258.2 479.8,253.4"/>
-<polygon class="l0t" points="467.4,246.8 479.8,250.4 474.2,255.2 461.8,251.6"/>
+<polygon class="l3l" points="461.8,235.1 474.2,238.7 474.2,258.2 461.8,254.6"/>
+<polygon class="l3r" points="479.8,233.9 474.2,238.7 474.2,258.2 479.8,253.4"/>
+<polygon class="l3t" points="467.4,230.3 479.8,233.9 474.2,238.7 461.8,235.1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.45s" fill="freeze"/>
 <polygon class="l0l" points="522.2,252.8 534.7,256.4 534.7,259.4 522.2,255.8"/>
@@ -1048,19 +1048,19 @@
 <polygon class="l1t" points="444.9,240.2 457.2,243.7 451.6,248.5 439.2,245.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="499.7,254.4 512.2,258.0 512.2,261.0 499.7,257.4"/>
-<polygon class="l0r" points="517.8,253.2 512.2,258.0 512.2,261.0 517.8,256.2"/>
-<polygon class="l0t" points="505.3,249.6 517.8,253.2 512.2,258.0 499.7,254.4"/>
+<polygon class="l2l" points="499.7,241.4 512.2,244.9 512.2,261.0 499.7,257.4"/>
+<polygon class="l2r" points="517.8,240.1 512.2,244.9 512.2,261.0 517.8,256.2"/>
+<polygon class="l2t" points="505.3,236.6 517.8,240.1 512.2,244.9 499.7,241.4"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="477.2,256.0 489.7,259.6 489.7,262.6 477.2,259.0"/>
-<polygon class="l0r" points="495.3,254.8 489.7,259.6 489.7,262.6 495.3,257.8"/>
-<polygon class="l0t" points="482.8,251.2 495.3,254.8 489.7,259.6 477.2,256.0"/>
+<polygon class="l2l" points="477.2,243.0 489.7,246.5 489.7,262.6 477.2,259.0"/>
+<polygon class="l2r" points="495.3,241.7 489.7,246.5 489.7,262.6 495.3,257.8"/>
+<polygon class="l2t" points="482.8,238.2 495.3,241.7 489.7,246.5 477.2,243.0"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.09s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="454.8,257.6 467.2,261.2 467.2,264.2 454.8,260.6"/>
-<polygon class="l0r" points="472.8,256.4 467.2,261.2 467.2,264.2 472.8,259.4"/>
-<polygon class="l0t" points="460.4,252.8 472.8,256.4 467.2,261.2 454.8,257.6"/>
+<polygon class="l3l" points="454.8,240.1 467.2,243.7 467.2,264.2 454.8,260.6"/>
+<polygon class="l3r" points="472.8,238.9 467.2,243.7 467.2,264.2 472.8,259.4"/>
+<polygon class="l3t" points="460.4,235.3 472.8,238.9 467.2,243.7 454.8,240.1"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.45s" fill="freeze"/>
 <polygon class="l1l" points="515.2,253.0 527.7,256.5 527.7,265.4 515.2,261.8"/>
@@ -1073,26 +1073,31 @@
 <polygon class="l0t" points="498.3,255.6 510.8,259.2 505.2,264.0 492.7,260.4"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="470.2,262.0 482.7,265.6 482.7,268.6 470.2,265.0"/>
-<polygon class="l0r" points="488.3,260.8 482.7,265.6 482.7,268.6 488.3,263.8"/>
-<polygon class="l0t" points="475.8,257.2 488.3,260.8 482.7,265.6 470.2,262.0"/>
+<polygon class="l3l" points="470.2,245.5 482.7,249.1 482.7,268.6 470.2,265.0"/>
+<polygon class="l3r" points="488.3,244.3 482.7,249.1 482.7,268.6 488.3,263.8"/>
+<polygon class="l3t" points="475.8,240.7 488.3,244.3 482.7,249.1 470.2,245.5"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.45s" fill="freeze"/>
+<polygon class="l2l" points="508.2,251.8 520.7,255.3 520.7,271.4 508.2,267.8"/>
+<polygon class="l2r" points="526.2,250.5 520.7,255.3 520.7,271.4 526.2,266.6"/>
+<polygon class="l2t" points="513.8,247.0 526.2,250.5 520.7,255.3 508.2,251.8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.45s" fill="freeze"/>
-<polygon class="l0l" points="485.7,266.4 498.2,270.0 498.2,273.0 485.7,269.4"/>
-<polygon class="l0r" points="503.8,265.2 498.2,270.0 498.2,273.0 503.8,268.2"/>
-<polygon class="l0t" points="491.3,261.6 503.8,265.2 498.2,270.0 485.7,266.4"/>
+<polygon class="l1l" points="485.7,254.8 498.2,258.3 498.2,273.0 485.7,269.4"/>
+<polygon class="l1r" points="503.8,253.5 498.2,258.3 498.2,273.0 503.8,268.2"/>
+<polygon class="l1t" points="491.3,250.0 503.8,253.5 498.2,258.3 485.7,254.8"/>
 </g>
 <rect x="576" y="82" width="3" height="40" rx="1.5" fill="#FF7B54" opacity="0.45"/>
-<text class="t fg" x="590" y="112" font-size="30" font-weight="700">1,267</text>
+<text class="t fg" x="590" y="112" font-size="30" font-weight="700">1,461</text>
 <text class="t muted" x="590" y="132" font-size="11">contributions</text>
 <rect x="746" y="82" width="3" height="40" rx="1.5" fill="#FF7B54" opacity="1.00"/>
 <text class="t fg" x="760" y="112" font-size="30" font-weight="700">90-day</text>
 <text class="t muted" x="760" y="132" font-size="11">longest streak</text>
 <rect x="576" y="174" width="3" height="40" rx="1.5" fill="#FF7B54" opacity="0.45"/>
-<text class="t fg" x="590" y="204" font-size="30" font-weight="700">163</text>
-<text class="t muted" x="590" y="224" font-size="11">active days &#183; 77%</text>
+<text class="t fg" x="590" y="204" font-size="30" font-weight="700">191</text>
+<text class="t muted" x="590" y="224" font-size="11">active days &#183; 89%</text>
 <rect x="746" y="174" width="3" height="40" rx="1.5" fill="#FF7B54" opacity="0.45"/>
 <text class="t fg" x="760" y="204" font-size="30" font-weight="700">36</text>
 <text class="t muted" x="760" y="224" font-size="11">best day &#183; Apr 20</text>
-<text class="t muted" x="876" y="258" font-size="10" text-anchor="end">generated 2026-11-12 13:45 UTC</text>
+<text class="t muted" x="876" y="258" font-size="10" text-anchor="end">generated 2026-11-13 13:05 UTC</text>
 </svg>
